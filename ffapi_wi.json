@@ -1,0 +1,151 @@
+{
+    "support": {
+        "donations": {
+            "bankaccount": {
+                "BIC": "MVBMDE55XXX",
+                "usage": "Freifunk",
+                "IBAN": "DE41551900000654997014"
+            }
+        },
+        "club": {
+            "zip": "65183",
+            "street": "Sedanplatz 7",
+            "url": "https://www.cccmz.de",
+            "name": "Chaos Computer Club Mainz e.V.",
+            "city": "Wiesbaden",
+            "email": "kontakt@cccmz.de"
+        }
+    },
+    "location": {
+        "address": {
+            "Name": "CCCMZ",
+            "Street": "Sedanplatz 7",
+            "Zipcode": "65183"
+        },
+        "lon": 8.2294,
+        "city": "Wiesbaden",
+        "lat": 50.083117,
+        "country": "DE"
+    },
+    "feeds": [
+        {
+            "category": "blog",
+            "type": "rss",
+            "url": "http://wiesbaden.freifunk.net/feed.xml",
+            "name": "Freifunk Wiesbaden Blog"
+        },
+        {
+            "category": "ics",
+            "type": "ics",
+            "url": "http://wiesbaden.freifunk.net/ffwi-calendar.ics",
+            "name": "Freifunk Wiesbaden Kalender"
+        }
+    ],
+    "timeline": [
+        {
+            "description": "Freifunk Wiesbaden Kickoff",
+            "timestamp": "2013-11-14",
+            "url": "http://wiesbaden.freifunk.net/2013/11/29/freifunk-wiesbaden-kickoff.html"
+        },
+        {
+            "description": "Gluon in Wiesbaden geht in die Public-Beta-Phase",
+            "timestamp": "2014-12-01",
+            "url": "http://wiesbaden.freifunk.net/2014/12/01/gluon-in-wiesbaden-geht-in-die-public-beta-phase.html"
+        },
+        {
+            "description": "Start f\u00fcr neues Freifunk-Netz (Gluon)",
+            "timestamp": "2015-03-06"
+        }
+    ],
+    "techDetails": {
+        "firmware": {
+            "name": "gluon",
+            "url": "http://firmware.wiesbaden.freifunk.net/stable/",
+            "docs": "http://firmware.wiesbaden.freifunk.net/README"
+        },
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "autoupdate"
+        ],
+        "dns": [
+            {
+                "nameserver": [
+                    "fd56:b4dc:4b1e::a38:e7",
+                    "fd56:b4dc:4b1e::a38:7",
+                    "fd56:b4dc:4b1e::a38:17",
+                    "fd56:b4dc:4b1e::a38:d0"
+                ],
+                "domainname": "ffwi.org"
+            },
+            {
+                "nameserver": [
+                    "fd56:b4dc:4b1e::a38:e7",
+                    "fd37:b4dc:4b1e::a38:7",
+                    "fd37:b4dc:4b1e::a38:17",
+                    "fd56:b4dc:4b1e::a38:d0"
+                ],
+                "domainname": "user.ffwi.org"
+            }
+        ],
+        "networks": {
+            "ipv6": [
+                {
+                    "network": "fd56:b4dc:4b1e::/48"
+                }
+            ],
+            "ipv4": [
+                {
+                    "network": "10.56.0.0/16"
+                }
+            ]
+        },
+        "legals": [
+            "vpninternational"
+        ]
+    },
+    "services": [
+        {
+            "internalUri": "http://piratebox.user.ffwi.org",
+            "serviceName": "PirateBox"
+        }
+    ],
+    "nodeMaps": [
+        {
+            "interval": "1min",
+            "url": "http://map.wiesbaden.freifunk.net",
+            "technicalType": "meshviewer",
+            "mapType": "geographical"
+        },
+        {
+            "interval": "1min",
+            "url": "http://map.wiesbaden.freifunk.net/data/nodelist.json",
+            "technicalType": "nodelist",
+            "mapType": "list/status"
+        }
+    ],
+    "contact": {
+        "phone": "+49 611 94580737",
+        "irc": "irc://hackint/#ffmwu",
+        "twitter": "@freifunkwi",
+        "ml": "wiesbaden@freifunk.net",
+        "facebook": "https://www.facebook.com/FreifunkWiesbaden",
+        "email": "info@freifunk-wiesbaden.de"
+    },
+    "url": "http://wiesbaden.freifunk.net",
+    "name": "Freifunk Wiesbaden",
+    "metacommunity": "Freifunk MWU",
+    "api": "0.4.8",
+    "state": {
+        "nodes": 98,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Social Community Building",
+            "Local services and content",
+            "Free internet access"
+        ],
+        "lastchange": "2015-09-05T12:12:07.799464"
+    }
+}
