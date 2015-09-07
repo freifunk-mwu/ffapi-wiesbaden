@@ -1,46 +1,136 @@
 {
-    "support": {
-        "donations": {
-            "bankaccount": {
-                "BIC": "MVBMDE55XXX",
-                "usage": "Freifunk",
-                "IBAN": "DE41551900000654997014"
-            }
-        },
-        "club": {
-            "zip": "65183",
-            "street": "Sedanplatz 7",
-            "url": "https://www.cccmz.de",
-            "name": "Chaos Computer Club Mainz e.V.",
-            "city": "Wiesbaden",
-            "email": "kontakt@cccmz.de"
-        }
+    "api": "0.4.9",
+    "contact": {
+        "email": "info@freifunk-wiesbaden.de",
+        "facebook": "https://www.facebook.com/FreifunkWiesbaden",
+        "irc": "irc://hackint/#ffmwu",
+        "ml": "wiesbaden@freifunk.net",
+        "phone": "+49 611 94580737",
+        "twitter": "@freifunkwi"
     },
+    "feeds": [
+        {
+            "category": "blog",
+            "name": "Freifunk Wiesbaden Blog",
+            "type": "rss",
+            "url": "http://wiesbaden.freifunk.net/feed.xml"
+        },
+        {
+            "category": "ics",
+            "name": "Freifunk Wiesbaden Kalender",
+            "type": "ics",
+            "url": "http://wiesbaden.freifunk.net/ffwi-calendar.ics"
+        }
+    ],
     "location": {
         "address": {
             "Name": "CCCMZ",
             "Street": "Sedanplatz 7",
             "Zipcode": "65183"
         },
-        "lon": 8.2294,
         "city": "Wiesbaden",
+        "country": "DE",
         "lat": 50.083117,
-        "country": "DE"
+        "lon": 8.2294
     },
-    "feeds": [
+    "metacommunity": "Freifunk MWU",
+    "name": "Freifunk Wiesbaden",
+    "nodeMaps": [
         {
-            "category": "blog",
-            "type": "rss",
-            "url": "http://wiesbaden.freifunk.net/feed.xml",
-            "name": "Freifunk Wiesbaden Blog"
+            "interval": "1min",
+            "mapType": "geographical",
+            "technicalType": "meshviewer",
+            "url": "http://map.wiesbaden.freifunk.net"
         },
         {
-            "category": "ics",
-            "type": "ics",
-            "url": "http://wiesbaden.freifunk.net/ffwi-calendar.ics",
-            "name": "Freifunk Wiesbaden Kalender"
+            "interval": "1min",
+            "mapType": "list/status",
+            "technicalType": "nodelist",
+            "url": "http://map.wiesbaden.freifunk.net/data/nodelist.json"
         }
     ],
+    "services": [
+        {
+            "internalUri": "http://piratebox.user.ffwi.org",
+            "serviceName": "PirateBox"
+        }
+    ],
+    "state": {
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Social Community Building",
+            "Local services and content",
+            "Free internet access"
+        ],
+        "lastchange": "2015-09-07T07:36:49.603901",
+        "nodes": 94
+    },
+    "support": {
+        "club": {
+            "city": "Wiesbaden",
+            "email": "kontakt@cccmz.de",
+            "name": "Chaos Computer Club Mainz e.V.",
+            "street": "Sedanplatz 7",
+            "url": "https://www.cccmz.de",
+            "zip": "65183"
+        },
+        "donations": {
+            "bankaccount": {
+                "BIC": "MVBMDE55XXX",
+                "IBAN": "DE41551900000654997014",
+                "usage": "Freifunk"
+            }
+        }
+    },
+    "techDetails": {
+        "dns": [
+            {
+                "domainname": "ffwi.org",
+                "nameserver": [
+                    "fd56:b4dc:4b1e::a38:e7",
+                    "fd56:b4dc:4b1e::a38:7",
+                    "fd56:b4dc:4b1e::a38:17",
+                    "fd56:b4dc:4b1e::a38:d0"
+                ]
+            },
+            {
+                "domainname": "user.ffwi.org",
+                "nameserver": [
+                    "fd56:b4dc:4b1e::a38:e7",
+                    "fd37:b4dc:4b1e::a38:7",
+                    "fd37:b4dc:4b1e::a38:17",
+                    "fd56:b4dc:4b1e::a38:d0"
+                ]
+            }
+        ],
+        "firmware": {
+            "docs": "http://firmware.wiesbaden.freifunk.net/README",
+            "name": "gluon",
+            "url": "http://firmware.wiesbaden.freifunk.net/stable/"
+        },
+        "legals": [
+            "vpninternational"
+        ],
+        "networks": {
+            "ipv4": [
+                {
+                    "network": "10.56.0.0/16"
+                }
+            ],
+            "ipv6": [
+                {
+                    "network": "fd56:b4dc:4b1e::/48"
+                }
+            ]
+        },
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "autoupdate"
+        ]
+    },
     "timeline": [
         {
             "description": "Freifunk Wiesbaden Kickoff",
@@ -57,95 +147,5 @@
             "timestamp": "2015-03-06"
         }
     ],
-    "techDetails": {
-        "firmware": {
-            "name": "gluon",
-            "url": "http://firmware.wiesbaden.freifunk.net/stable/",
-            "docs": "http://firmware.wiesbaden.freifunk.net/README"
-        },
-        "routing": [
-            "batman-adv"
-        ],
-        "updatemode": [
-            "autoupdate"
-        ],
-        "dns": [
-            {
-                "nameserver": [
-                    "fd56:b4dc:4b1e::a38:e7",
-                    "fd56:b4dc:4b1e::a38:7",
-                    "fd56:b4dc:4b1e::a38:17",
-                    "fd56:b4dc:4b1e::a38:d0"
-                ],
-                "domainname": "ffwi.org"
-            },
-            {
-                "nameserver": [
-                    "fd56:b4dc:4b1e::a38:e7",
-                    "fd37:b4dc:4b1e::a38:7",
-                    "fd37:b4dc:4b1e::a38:17",
-                    "fd56:b4dc:4b1e::a38:d0"
-                ],
-                "domainname": "user.ffwi.org"
-            }
-        ],
-        "networks": {
-            "ipv6": [
-                {
-                    "network": "fd56:b4dc:4b1e::/48"
-                }
-            ],
-            "ipv4": [
-                {
-                    "network": "10.56.0.0/16"
-                }
-            ]
-        },
-        "legals": [
-            "vpninternational"
-        ]
-    },
-    "services": [
-        {
-            "internalUri": "http://piratebox.user.ffwi.org",
-            "serviceName": "PirateBox"
-        }
-    ],
-    "nodeMaps": [
-        {
-            "interval": "1min",
-            "url": "http://map.wiesbaden.freifunk.net",
-            "technicalType": "meshviewer",
-            "mapType": "geographical"
-        },
-        {
-            "interval": "1min",
-            "url": "http://map.wiesbaden.freifunk.net/data/nodelist.json",
-            "technicalType": "nodelist",
-            "mapType": "list/status"
-        }
-    ],
-    "contact": {
-        "phone": "+49 611 94580737",
-        "irc": "irc://hackint/#ffmwu",
-        "twitter": "@freifunkwi",
-        "ml": "wiesbaden@freifunk.net",
-        "facebook": "https://www.facebook.com/FreifunkWiesbaden",
-        "email": "info@freifunk-wiesbaden.de"
-    },
-    "url": "http://wiesbaden.freifunk.net",
-    "name": "Freifunk Wiesbaden",
-    "metacommunity": "Freifunk MWU",
-    "api": "0.4.8",
-    "state": {
-        "nodes": 98,
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Social Community Building",
-            "Local services and content",
-            "Free internet access"
-        ],
-        "lastchange": "2015-09-05T12:12:07.799464"
-    }
+    "url": "http://wiesbaden.freifunk.net"
 }
