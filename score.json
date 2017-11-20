@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 161,
+      "clients": 140,
       "id": "525400ddcc9d",
       "name": {
         "hardware": {
@@ -74,10 +74,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 12510.190000000004
+      "score": 12527.060000000003
     },
     {
-      "clients": 82,
+      "clients": 66,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -140,10 +140,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 8440.950000000015
+      "score": 8452.420000000015
     },
     {
-      "clients": 0,
+      "clients": 54,
       "id": "000db9339548",
       "name": {
         "hardware": {
@@ -206,10 +206,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 6243.990000000143
+      "score": 6251.770000000143
     },
     {
-      "clients": 18,
+      "clients": 15,
       "id": "60e327a17ffc",
       "name": {
         "hardware": {
@@ -274,7 +274,67 @@
         "vpn": false
       },
       "online": true,
-      "score": 6016.9399999999605
+      "score": 6022.79999999996
+    },
+    {
+      "clients": 12,
+      "id": "a42bb0b0ed92",
+      "name": {
+        "hardware": {
+          "model": "TP-Link CPE210 v1.1",
+          "nproc": 1
+        },
+        "hostname": "HanS-Flur-EG-2",
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:a100:a62b:b0ff:feb0:ed92",
+            "2a03:2260:11b:700:a62b:b0ff:feb0:ed92",
+            "fd56:b4dc:4b1e:0:a62b:b0ff:feb0:ed92",
+            "2a03:2260:11b:1700:a62b:b0ff:feb0:ed92",
+            "fe80::a62b:b0ff:feb0:ed92"
+          ],
+          "mac": "a4:2b:b0:b0:ed:92",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "1a:a0:22:cd:d3:c3",
+                  "1a:a0:22:cd:d3:c0",
+                  "1a:a0:22:cd:d3:c4"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "a42bb0b0ed92",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 5986.729999999915
     },
     {
       "clients": 0,
@@ -336,70 +396,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 5984.820000000041
+      "score": 5977.820000000041
     },
     {
-      "clients": 19,
-      "id": "a42bb0b0ed92",
-      "name": {
-        "hardware": {
-          "model": "TP-Link CPE210 v1.1",
-          "nproc": 1
-        },
-        "hostname": "HanS-Flur-EG-2",
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:a100:a62b:b0ff:feb0:ed92",
-            "2a03:2260:11b:700:a62b:b0ff:feb0:ed92",
-            "fd56:b4dc:4b1e:0:a62b:b0ff:feb0:ed92",
-            "2a03:2260:11b:1700:a62b:b0ff:feb0:ed92",
-            "fe80::a62b:b0ff:feb0:ed92"
-          ],
-          "mac": "a4:2b:b0:b0:ed:92",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "1a:a0:22:cd:d3:c3",
-                  "1a:a0:22:cd:d3:c0",
-                  "1a:a0:22:cd:d3:c4"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "a42bb0b0ed92",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 5978.699999999915
-    },
-    {
-      "clients": 15,
+      "clients": 16,
       "id": "a42bb0b0f5d8",
       "name": {
         "hardware": {
@@ -456,10 +456,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5878.229999999961
+      "score": 5886.129999999961
     },
     {
-      "clients": 2,
+      "clients": 26,
       "id": "687251820acb",
       "name": {
         "hardware": {
@@ -522,10 +522,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5843.240000000052
+      "score": 5850.700000000053
     },
     {
-      "clients": 15,
+      "clients": 13,
       "id": "98ded04bec66",
       "name": {
         "hardware": {
@@ -587,10 +587,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5727.750000000026
+      "score": 5735.650000000027
     },
     {
-      "clients": 12,
+      "clients": 14,
       "id": "60e32776a72a",
       "name": {
         "hardware": {
@@ -656,10 +656,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5612.200000000045
+      "score": 5619.850000000045
     },
     {
-      "clients": 15,
+      "clients": 10,
       "id": "687251588c2b",
       "name": {
         "hardware": {
@@ -715,10 +715,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5551.240000000066
+      "score": 5558.910000000066
     },
     {
-      "clients": 6,
+      "clients": 3,
       "id": "60e32753033a",
       "name": {
         "hardware": {
@@ -782,10 +782,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5545.829999999988
+      "score": 5553.439999999987
     },
     {
-      "clients": 6,
+      "clients": 9,
       "id": "6872515888a3",
       "name": {
         "hardware": {
@@ -847,10 +847,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5513.760000000061
+      "score": 5521.300000000061
     },
     {
-      "clients": 7,
+      "clients": 6,
       "id": "30b5c20eb0dc",
       "name": {
         "hardware": {
@@ -913,10 +913,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5507.520000000114
+      "score": 5515.000000000115
     },
     {
-      "clients": 10,
+      "clients": 13,
       "id": "18a6f73de3f8",
       "name": {
         "hardware": {
@@ -980,10 +980,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5492.350000000049
+      "score": 5499.900000000049
     },
     {
-      "clients": 13,
+      "clients": 11,
       "id": "18d6c7519760",
       "name": {
         "hardware": {
@@ -1050,10 +1050,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5487.55999999995
+      "score": 5495.32999999995
     },
     {
-      "clients": 7,
+      "clients": 5,
       "id": "30b5c2b048a8",
       "name": {
         "hardware": {
@@ -1115,10 +1115,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5458.930000000111
+      "score": 5466.310000000112
     },
     {
-      "clients": 9,
+      "clients": 8,
       "id": "30b5c2bd705a",
       "name": {
         "hardware": {
@@ -1180,10 +1180,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5441.990000000063
+      "score": 5449.500000000063
     },
     {
-      "clients": 4,
+      "clients": 3,
       "id": "14cc208a2997",
       "name": {
         "hardware": {
@@ -1251,7 +1251,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5403.000000000149
+      "score": 5410.250000000148
     },
     {
       "clients": 1,
@@ -1322,7 +1322,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5367.260000000274
+      "score": 5374.3300000002755
     },
     {
       "clients": 4,
@@ -1391,10 +1391,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5361.80000000026
+      "score": 5369.08000000026
     },
     {
-      "clients": 10,
+      "clients": 6,
       "id": "c4e984f7b27e",
       "name": {
         "hardware": {
@@ -1456,7 +1456,70 @@
         "vpn": false
       },
       "online": true,
-      "score": 5359.350000000075
+      "score": 5366.960000000076
+    },
+    {
+      "clients": 1,
+      "id": "60e327ceef1c",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v10",
+          "nproc": 1
+        },
+        "hostname": "Fluechtihilfe_Limbach_neu",
+        "location": {
+          "latitude": 50.245901,
+          "longitude": 8.168823
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:62e3:27ff:fece:ef1c",
+            "2a03:2260:11b:700:62e3:27ff:fece:ef1c",
+            "fe80::62e3:27ff:fece:ef1c",
+            "fd56:b4dc:4b1e:0:62e3:27ff:fece:ef1c",
+            "2a03:2260:11b:a100:62e3:27ff:fece:ef1c"
+          ],
+          "mac": "60:e3:27:ce:ef:1c",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "e6:e0:a1:61:11:63",
+                  "e6:e0:a1:61:11:60"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "60e327ceef1c",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 5350.720000000175
     },
     {
       "clients": 0,
@@ -1518,73 +1581,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 5348.819999999916
+      "score": 5341.819999999916
     },
     {
-      "clients": 3,
-      "id": "60e327ceef1c",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR841N/ND v10",
-          "nproc": 1
-        },
-        "hostname": "Fluechtihilfe_Limbach_neu",
-        "location": {
-          "latitude": 50.245901,
-          "longitude": 8.168823
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:1700:62e3:27ff:fece:ef1c",
-            "2a03:2260:11b:700:62e3:27ff:fece:ef1c",
-            "fe80::62e3:27ff:fece:ef1c",
-            "fd56:b4dc:4b1e:0:62e3:27ff:fece:ef1c",
-            "2a03:2260:11b:a100:62e3:27ff:fece:ef1c"
-          ],
-          "mac": "60:e3:27:ce:ef:1c",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "e6:e0:a1:61:11:63",
-                  "e6:e0:a1:61:11:60"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "60e327ceef1c",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 5343.530000000176
-    },
-    {
-      "clients": 4,
+      "clients": 2,
       "id": "c4e9844ed416",
       "name": {
         "hardware": {
@@ -1652,10 +1652,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5327.840000000228
+      "score": 5334.970000000229
     },
     {
-      "clients": 4,
+      "clients": 2,
       "id": "60e327368376",
       "name": {
         "hardware": {
@@ -1721,7 +1721,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5321.8100000002305
+      "score": 5328.930000000233
     },
     {
       "clients": 2,
@@ -1790,10 +1790,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5312.260000000271
+      "score": 5319.420000000273
     },
     {
-      "clients": 6,
+      "clients": 9,
       "id": "30b5c20eae02",
       "name": {
         "hardware": {
@@ -1855,10 +1855,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5304.170000000174
+      "score": 5311.660000000173
     },
     {
-      "clients": 1,
+      "clients": 2,
       "id": "6805ca3c28be",
       "name": {
         "hardware": {
@@ -1918,10 +1918,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5296.210000000223
+      "score": 5303.340000000225
     },
     {
-      "clients": 8,
+      "clients": 4,
       "id": "687251588dab",
       "name": {
         "hardware": {
@@ -1977,10 +1977,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5293.05000000023
+      "score": 5300.36000000023
     },
     {
-      "clients": 5,
+      "clients": 2,
       "id": "6805ca3ccddf",
       "name": {
         "hardware": {
@@ -2043,7 +2043,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5291.00000000021
+      "score": 5298.170000000211
     },
     {
       "clients": 6,
@@ -2110,7 +2110,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5289.680000000172
+      "score": 5297.070000000174
     },
     {
       "clients": 2,
@@ -2179,7 +2179,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5277.61000000022
+      "score": 5284.740000000223
     },
     {
       "clients": 6,
@@ -2244,10 +2244,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5275.500000000172
+      "score": 5282.860000000173
     },
     {
-      "clients": 16,
+      "clients": 15,
       "id": "68725136ef51",
       "name": {
         "hardware": {
@@ -2304,7 +2304,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5274.860000000004
+      "score": 5282.730000000004
     },
     {
       "clients": 12,
@@ -2370,10 +2370,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5271.330000000208
+      "score": 5279.060000000208
     },
     {
-      "clients": 1,
+      "clients": 8,
       "id": "60e327369222",
       "name": {
         "hardware": {
@@ -2439,10 +2439,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5261.960000000265
+      "score": 5269.140000000266
     },
     {
-      "clients": 1,
+      "clients": 2,
       "id": "c4e9844ec44d",
       "name": {
         "hardware": {
@@ -2510,7 +2510,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5261.580000000287
+      "score": 5268.660000000289
     },
     {
       "clients": 3,
@@ -2583,10 +2583,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5260.560000000305
+      "score": 5267.770000000303
     },
     {
-      "clients": 3,
+      "clients": 2,
       "id": "30b5c2bd70ea",
       "name": {
         "hardware": {
@@ -2649,7 +2649,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5255.33000000015
+      "score": 5262.500000000151
     },
     {
       "clients": 0,
@@ -2718,7 +2718,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5252.250000000185
+      "score": 5259.250000000185
     },
     {
       "clients": 3,
@@ -2784,7 +2784,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5249.75000000014
+      "score": 5256.910000000141
     },
     {
       "clients": 3,
@@ -2853,7 +2853,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5249.440000000325
+      "score": 5256.7000000003245
     },
     {
       "clients": 0,
@@ -2923,7 +2923,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5239.460000000259
+      "score": 5246.460000000259
     },
     {
       "clients": 10,
@@ -2988,10 +2988,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5227.430000000049
+      "score": 5235.04000000005
     },
     {
-      "clients": 2,
+      "clients": 1,
       "id": "687251360b9d",
       "name": {
         "hardware": {
@@ -3046,10 +3046,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5224.960000000346
+      "score": 5232.040000000347
     },
     {
-      "clients": 2,
+      "clients": 1,
       "id": "30b5c2bd7132",
       "name": {
         "hardware": {
@@ -3116,7 +3116,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5224.640000000322
+      "score": 5229.690000000323
     },
     {
       "clients": 1,
@@ -3181,10 +3181,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5222.100000000418
+      "score": 5229.160000000419
     },
     {
-      "clients": 1,
+      "clients": 2,
       "id": "30b5c2b04812",
       "name": {
         "hardware": {
@@ -3251,10 +3251,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5220.880000000274
+      "score": 5227.960000000276
     },
     {
-      "clients": 3,
+      "clients": 4,
       "id": "e8de2758f421",
       "name": {
         "hardware": {
@@ -3321,7 +3321,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5218.960000000288
+      "score": 5226.220000000288
     },
     {
       "clients": 2,
@@ -3391,10 +3391,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5217.890000000318
+      "score": 5224.9700000003195
     },
     {
-      "clients": 0,
+      "clients": 4,
       "id": "30b5c2d5c813",
       "name": {
         "hardware": {
@@ -3462,7 +3462,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5214.400000000293
+      "score": 5221.500000000295
     },
     {
       "clients": 0,
@@ -3532,7 +3532,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5208.160000000239
+      "score": 5215.160000000239
     },
     {
       "clients": 2,
@@ -3597,10 +3597,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5205.090000000357
+      "score": 5212.210000000358
     },
     {
-      "clients": 1,
+      "clients": 2,
       "id": "f4f26d4a0d52",
       "name": {
         "hardware": {
@@ -3662,7 +3662,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5195.630000000353
+      "score": 5202.760000000355
     },
     {
       "clients": 2,
@@ -3731,10 +3731,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5193.260000000479
+      "score": 5200.400000000482
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "30b5c281273a",
       "name": {
         "hardware": {
@@ -3800,10 +3800,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5192.990000000282
+      "score": 5200.010000000282
     },
     {
-      "clients": 6,
+      "clients": 7,
       "id": "30b5c2bd7194",
       "name": {
         "hardware": {
@@ -3865,7 +3865,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5186.240000000165
+      "score": 5193.560000000166
     },
     {
       "clients": 1,
@@ -3934,73 +3934,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5184.710000000258
+      "score": 5191.760000000259
     },
     {
-      "clients": 1,
-      "id": "30b5c2e321f6",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR1043N/ND v2",
-          "nproc": 1
-        },
-        "hostname": "Weilstrasse7",
-        "location": {
-          "latitude": 50.088539,
-          "longitude": 8.237203
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:700:32b5:c2ff:fee3:21f6",
-            "2a03:2260:11b:a100:32b5:c2ff:fee3:21f6",
-            "fe80::32b5:c2ff:fee3:21f6",
-            "2a03:2260:11b:1700:32b5:c2ff:fee3:21f6",
-            "fd56:b4dc:4b1e:0:32b5:c2ff:fee3:21f6"
-          ],
-          "mac": "30:b5:c2:e3:21:f6",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "32:b6:c3:e3:12:12",
-                  "2a:4c:f1:2c:7f:2b",
-                  "2a:4c:f1:2c:7f:28"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "30b5c2e321f6",
-        "software": {
-          "autoupdater": {
-            "branch": "stable"
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.2",
-            "release": "2016.2.2+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 5182.42000000066
-    },
-    {
-      "clients": 4,
+      "clients": 3,
       "id": "10feed57feb6",
       "name": {
         "hardware": {
@@ -4067,7 +4004,70 @@
         "vpn": false
       },
       "online": true,
-      "score": 5182.400000000357
+      "score": 5189.670000000357
+    },
+    {
+      "clients": 1,
+      "id": "30b5c2e321f6",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "Weilstrasse7",
+        "location": {
+          "latitude": 50.088539,
+          "longitude": 8.237203
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:700:32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:a100:32b5:c2ff:fee3:21f6",
+            "fe80::32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:1700:32b5:c2ff:fee3:21f6",
+            "fd56:b4dc:4b1e:0:32b5:c2ff:fee3:21f6"
+          ],
+          "mac": "30:b5:c2:e3:21:f6",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "32:b6:c3:e3:12:12",
+                  "2a:4c:f1:2c:7f:2b",
+                  "2a:4c:f1:2c:7f:28"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "30b5c2e321f6",
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.2",
+            "release": "2016.2.2+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 5189.490000000662
     },
     {
       "clients": 0,
@@ -4137,10 +4137,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5182.170000000251
+      "score": 5189.170000000251
     },
     {
-      "clients": 6,
+      "clients": 5,
       "id": "60e327246112",
       "name": {
         "hardware": {
@@ -4204,10 +4204,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5181.570000000195
+      "score": 5188.860000000195
     },
     {
-      "clients": 4,
+      "clients": 1,
       "id": "14cc20c01734",
       "name": {
         "hardware": {
@@ -4273,10 +4273,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5181.510000000377
+      "score": 5188.680000000379
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "30b5c28842da",
       "name": {
         "hardware": {
@@ -4342,7 +4342,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5181.26000000031
+      "score": 5188.340000000312
     },
     {
       "clients": 0,
@@ -4411,7 +4411,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5180.770000000455
+      "score": 5187.770000000455
     },
     {
       "clients": 1,
@@ -4480,7 +4480,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5179.4400000002315
+      "score": 5186.510000000233
     },
     {
       "clients": 1,
@@ -4545,7 +4545,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5178.650000000421
+      "score": 5185.720000000422
     },
     {
       "clients": 1,
@@ -4607,7 +4607,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5176.1700000006595
+      "score": 5183.240000000661
     },
     {
       "clients": 0,
@@ -4677,7 +4677,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5169.9000000001815
+      "score": 5176.9000000001815
     },
     {
       "clients": 0,
@@ -4743,7 +4743,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5169.020000000263
+      "score": 5176.020000000263
     },
     {
       "clients": 0,
@@ -4813,7 +4813,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5167.900000000267
+      "score": 5174.900000000267
     },
     {
       "clients": 0,
@@ -4882,10 +4882,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5167.4900000003345
+      "score": 5174.540000000336
     },
     {
-      "clients": 2,
+      "clients": 0,
       "id": "e8de27f92b84",
       "name": {
         "hardware": {
@@ -4951,10 +4951,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5165.250000000308
+      "score": 5172.270000000309
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "30b5c23e9d98",
       "name": {
         "hardware": {
@@ -5020,10 +5020,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5163.6500000002015
+      "score": 5170.660000000202
     },
     {
-      "clients": 8,
+      "clients": 7,
       "id": "f4f26d4a0d38",
       "name": {
         "hardware": {
@@ -5085,7 +5085,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5162.980000000075
+      "score": 5170.5400000000745
     },
     {
       "clients": 1,
@@ -5155,10 +5155,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5161.730000000178
+      "score": 5168.800000000179
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "c46e1fb39a32",
       "name": {
         "hardware": {
@@ -5224,10 +5224,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5160.410000000185
+      "score": 5167.410000000185
     },
     {
-      "clients": 4,
+      "clients": 3,
       "id": "f4f26dc20288",
       "name": {
         "hardware": {
@@ -5293,10 +5293,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5159.780000000191
+      "score": 5166.940000000192
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "60e32759e40a",
       "name": {
         "hardware": {
@@ -5362,10 +5362,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5159.310000000361
+      "score": 5166.350000000361
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "30b5c2b04880",
       "name": {
         "hardware": {
@@ -5427,10 +5427,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5158.210000000404
+      "score": 5165.270000000405
     },
     {
-      "clients": 1,
+      "clients": 3,
       "id": "f4f26d528268",
       "name": {
         "hardware": {
@@ -5493,7 +5493,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5158.020000000256
+      "score": 5165.110000000257
     },
     {
       "clients": 0,
@@ -5562,10 +5562,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5153.680000000175
+      "score": 5160.690000000175
     },
     {
-      "clients": 2,
+      "clients": 0,
       "id": "30b5c2b03460",
       "name": {
         "hardware": {
@@ -5631,10 +5631,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5152.880000000153
+      "score": 5160.0000000001555
     },
     {
-      "clients": 2,
+      "clients": 1,
       "id": "60e327be6e20",
       "name": {
         "hardware": {
@@ -5700,7 +5700,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5151.070000000174
+      "score": 5158.150000000176
     },
     {
       "clients": 0,
@@ -5767,10 +5767,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5150.28
+      "score": 5157.28
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "940c6da29152",
       "name": {
         "hardware": {
@@ -5837,10 +5837,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5149.050000000271
+      "score": 5156.060000000271
     },
     {
-      "clients": 2,
+      "clients": 1,
       "id": "30b5c2c880fc",
       "name": {
         "hardware": {
@@ -5903,7 +5903,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5148.1400000002195
+      "score": 5155.17000000022
     },
     {
       "clients": 0,
@@ -5973,10 +5973,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5147.940000000176
+      "score": 5154.940000000176
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "f4f26d527fb8",
       "name": {
         "hardware": {
@@ -6036,10 +6036,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5146.160000000237
+      "score": 5153.200000000238
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "30b5c28281b2",
       "name": {
         "hardware": {
@@ -6105,7 +6105,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5145.95000000023
+      "score": 5153.02000000023
     },
     {
       "clients": 0,
@@ -6176,7 +6176,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5145.780000000132
+      "score": 5152.790000000132
     },
     {
       "clients": 1,
@@ -6247,7 +6247,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5143.770000000151
+      "score": 5150.840000000153
     },
     {
       "clients": 0,
@@ -6316,7 +6316,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5143.360000000274
+      "score": 5150.360000000274
     },
     {
       "clients": 0,
@@ -6385,7 +6385,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5140.8700000001645
+      "score": 5147.8700000001645
     },
     {
       "clients": 0,
@@ -6454,7 +6454,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5140.120000000122
+      "score": 5147.120000000122
     },
     {
       "clients": 0,
@@ -6524,7 +6524,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5139.5200000002715
+      "score": 5146.5200000002715
     },
     {
       "clients": 1,
@@ -6594,7 +6594,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5138.670000000077
+      "score": 5145.740000000079
     },
     {
       "clients": 0,
@@ -6663,10 +6663,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5137.910000000142
+      "score": 5144.910000000142
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "f4f26d8ed0a0",
       "name": {
         "hardware": {
@@ -6732,7 +6732,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5137.030000000231
+      "score": 5144.090000000232
     },
     {
       "clients": 0,
@@ -6801,7 +6801,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5137.030000000074
+      "score": 5144.030000000074
     },
     {
       "clients": 0,
@@ -6871,10 +6871,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5136.340000000109
+      "score": 5143.39000000011
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "e894f6dee3bb",
       "name": {
         "hardware": {
@@ -6940,7 +6940,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5136.230000000101
+      "score": 5143.240000000102
     },
     {
       "clients": 0,
@@ -7009,7 +7009,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5135.320000000094
+      "score": 5142.320000000094
     },
     {
       "clients": 0,
@@ -7075,7 +7075,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5131.2
+      "score": 5138.2
     },
     {
       "clients": 0,
@@ -7145,10 +7145,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5129.2
+      "score": 5136.2
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "647002d2196e",
       "name": {
         "hardware": {
@@ -7214,7 +7214,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5127.78000000003
+      "score": 5134.79000000003
     },
     {
       "clients": 0,
@@ -7284,7 +7284,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5126.610000000044
+      "score": 5133.610000000044
     },
     {
       "clients": 0,
@@ -7353,7 +7353,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5126.550000000261
+      "score": 5133.550000000261
     },
     {
       "clients": 0,
@@ -7415,7 +7415,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5126.060000000045
+      "score": 5133.060000000045
     },
     {
       "clients": 0,
@@ -7482,7 +7482,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5125.2
+      "score": 5132.2
     },
     {
       "clients": 0,
@@ -7541,7 +7541,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5125.2
+      "score": 5132.2
     },
     {
       "clients": 0,
@@ -7610,10 +7610,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5124.720000000113
+      "score": 5131.720000000113
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "ec086b6f6c9a",
       "name": {
         "hardware": {
@@ -7681,7 +7681,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5123.580000000324
+      "score": 5130.610000000324
     },
     {
       "clients": 0,
@@ -7733,10 +7733,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5121.0
+      "score": 5128.0
     },
     {
-      "clients": 2,
+      "clients": 1,
       "id": "60e327bd9148",
       "name": {
         "hardware": {
@@ -7802,7 +7802,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5120.410000000159
+      "score": 5127.540000000162
     },
     {
       "clients": 0,
@@ -7871,7 +7871,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5119.700000000173
+      "score": 5126.700000000173
     },
     {
       "clients": 0,
@@ -7940,7 +7940,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5119.0000000000155
+      "score": 5126.0000000000155
     },
     {
       "clients": 0,
@@ -7992,10 +7992,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5119.0
+      "score": 5126.0
     },
     {
-      "clients": 1,
+      "clients": 2,
       "id": "44d9e772e9f6",
       "name": {
         "hardware": {
@@ -8059,7 +8059,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5112.83000000031
+      "score": 5119.8500000003105
     },
     {
       "clients": 0,
@@ -8130,7 +8130,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5111.9700000000175
+      "score": 5118.9700000000175
     },
     {
       "clients": 0,
@@ -8201,7 +8201,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5108.430000000106
+      "score": 5115.430000000106
     },
     {
       "clients": 0,
@@ -8265,10 +8265,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5105.0
+      "score": 5112.0
     },
     {
-      "clients": 4,
+      "clients": 5,
       "id": "60e327bded0a",
       "name": {
         "hardware": {
@@ -8326,7 +8326,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5100.690000000129
+      "score": 5107.960000000128
     },
     {
       "clients": 0,
@@ -8395,10 +8395,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5099.910000000264
+      "score": 5106.910000000264
     },
     {
-      "clients": 4,
+      "clients": 5,
       "id": "f4f26d4a0cca",
       "name": {
         "hardware": {
@@ -8457,10 +8457,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5097.200000000181
+      "score": 5104.580000000183
     },
     {
-      "clients": 3,
+      "clients": 2,
       "id": "30b5c2bd71ac",
       "name": {
         "hardware": {
@@ -8522,10 +8522,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5096.27000000039
+      "score": 5103.4300000003905
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "f4f26d8ed138",
       "name": {
         "hardware": {
@@ -8591,7 +8591,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5096.050000000058
+      "score": 5103.060000000059
     },
     {
       "clients": 6,
@@ -8656,7 +8656,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5093.060000000137
+      "score": 5100.530000000136
     },
     {
       "clients": 0,
@@ -8725,7 +8725,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5091.060000000195
+      "score": 5098.070000000195
     },
     {
       "clients": 0,
@@ -8794,7 +8794,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5088.580000000236
+      "score": 5095.580000000236
     },
     {
       "clients": 5,
@@ -8863,7 +8863,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5087.700000000208
+      "score": 5095.000000000208
     },
     {
       "clients": 0,
@@ -8882,8 +8882,8 @@
           "addresses": [
             "fe80::219:99ff:fe5c:5d5b",
             "2a03:2260:11b:a100:219:99ff:fe5c:5d5b",
-            "2a03:2260:11b:1700:219:99ff:fe5c:5d5b",
             "2a03:2260:11b:700:219:99ff:fe5c:5d5b",
+            "2a03:2260:11b:1700:219:99ff:fe5c:5d5b",
             "fd56:b4dc:4b1e:0:219:99ff:fe5c:5d5b"
           ],
           "mac": "00:19:99:5c:5d:5b",
@@ -8930,7 +8930,73 @@
         "vpn": false
       },
       "online": true,
-      "score": 5083.2
+      "score": 5090.2
+    },
+    {
+      "clients": 4,
+      "id": "18a6f73de574",
+      "name": {
+        "hardware": {
+          "model": "TP-Link CPE210 v1.1",
+          "nproc": 1
+        },
+        "hostname": "Drachen-Vorplatz_MXH",
+        "location": {
+          "latitude": 50.0783,
+          "longitude": 8.4493
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:a100:1aa6:f7ff:fe3d:e574",
+            "2a03:2260:11b:1700:1aa6:f7ff:fe3d:e574",
+            "fd56:b4dc:4b1e:0:1aa6:f7ff:fe3d:e574",
+            "2a03:2260:11b:700:1aa6:f7ff:fe3d:e574",
+            "fe80::1aa6:f7ff:fe3d:e574"
+          ],
+          "mac": "18:a6:f7:3d:e5:74",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "3e:6e:92:3c:d2:c3",
+                  "3e:6e:92:3c:d2:c0"
+                ],
+                "wireless": [
+                  "3e:6e:92:3c:d2:c1"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "18a6f73de574",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 5088.9800000001005
     },
     {
       "clients": 0,
@@ -8999,76 +9065,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5081.640000000016
+      "score": 5088.640000000016
     },
     {
-      "clients": 6,
-      "id": "18a6f73de574",
-      "name": {
-        "hardware": {
-          "model": "TP-Link CPE210 v1.1",
-          "nproc": 1
-        },
-        "hostname": "Drachen-Vorplatz_MXH",
-        "location": {
-          "latitude": 50.0783,
-          "longitude": 8.4493
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:a100:1aa6:f7ff:fe3d:e574",
-            "2a03:2260:11b:1700:1aa6:f7ff:fe3d:e574",
-            "fd56:b4dc:4b1e:0:1aa6:f7ff:fe3d:e574",
-            "2a03:2260:11b:700:1aa6:f7ff:fe3d:e574",
-            "fe80::1aa6:f7ff:fe3d:e574"
-          ],
-          "mac": "18:a6:f7:3d:e5:74",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "3e:6e:92:3c:d2:c3",
-                  "3e:6e:92:3c:d2:c0"
-                ],
-                "wireless": [
-                  "3e:6e:92:3c:d2:c1"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "18a6f73de574",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 5081.6300000001
-    },
-    {
-      "clients": 2,
+      "clients": 0,
       "id": "e8de27ca9bdc",
       "name": {
         "hardware": {
@@ -9130,10 +9130,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5079.5400000002965
+      "score": 5086.620000000298
     },
     {
-      "clients": 5,
+      "clients": 6,
       "id": "6466b3bb8ecf",
       "name": {
         "hardware": {
@@ -9199,7 +9199,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5070.680000000144
+      "score": 5077.960000000144
     },
     {
       "clients": 1,
@@ -9269,7 +9269,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5067.820000000339
+      "score": 5074.86000000034
     },
     {
       "clients": 0,
@@ -9338,10 +9338,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5066.170000000176
+      "score": 5073.170000000176
     },
     {
-      "clients": 0,
+      "clients": 4,
       "id": "60e327530d72",
       "name": {
         "hardware": {
@@ -9405,7 +9405,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5056.760000000094
+      "score": 5063.900000000095
     },
     {
       "clients": 0,
@@ -9474,7 +9474,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5053.010000000091
+      "score": 5060.010000000091
     },
     {
       "clients": 0,
@@ -9536,10 +9536,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5049.580000000159
+      "score": 5056.580000000159
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "60e327ee6558",
       "name": {
         "hardware": {
@@ -9605,7 +9605,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5049.240000000185
+      "score": 5056.2500000001855
     },
     {
       "clients": 2,
@@ -9668,7 +9668,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5045.45000000025
+      "score": 5052.64000000025
     },
     {
       "clients": 3,
@@ -9734,7 +9734,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5043.55000000032
+      "score": 5050.750000000319
     },
     {
       "clients": 0,
@@ -9803,7 +9803,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5039.920000000301
+      "score": 5046.930000000301
     },
     {
       "clients": 1,
@@ -9873,7 +9873,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5039.3200000003435
+      "score": 5046.390000000345
     },
     {
       "clients": 0,
@@ -9942,7 +9942,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5038.750000000127
+      "score": 5045.750000000127
     },
     {
       "clients": 0,
@@ -10011,7 +10011,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5038.36000000001
+      "score": 5045.36000000001
     },
     {
       "clients": 1,
@@ -10080,10 +10080,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5024.060000000293
+      "score": 5031.130000000295
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "30b5c28f97e3",
       "name": {
         "hardware": {
@@ -10150,7 +10150,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5009.220000000057
+      "score": 5016.230000000057
     },
     {
       "clients": 6,
@@ -10219,7 +10219,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5007.720000000148
+      "score": 5015.14000000015
     },
     {
       "clients": 0,
@@ -10291,7 +10291,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4993.920000000197
+      "score": 5000.920000000197
     },
     {
       "clients": 0,
@@ -10362,10 +10362,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4991.750000000333
+      "score": 4998.750000000333
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "14cc20e15604",
       "name": {
         "hardware": {
@@ -10432,10 +10432,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4991.430000000121
+      "score": 4998.4400000001215
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "60e32724612c",
       "name": {
         "hardware": {
@@ -10497,75 +10497,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4982.970000000155
+      "score": 4989.980000000155
     },
     {
-      "clients": 0,
-      "id": "30b5c2e01ba4",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR841N/ND v9",
-          "nproc": 1
-        },
-        "hostname": "Sohnenbuppe",
-        "location": {
-          "latitude": 50.012038,
-          "longitude": 8.351513
-        },
-        "network": {
-          "addresses": [
-            "fe80::32b5:c2ff:fee0:1ba4",
-            "2a03:2260:11b:1700:32b5:c2ff:fee0:1ba4",
-            "fd56:b4dc:4b1e:0:32b5:c2ff:fee0:1ba4",
-            "2a03:2260:11b:700:32b5:c2ff:fee0:1ba4",
-            "2a03:2260:11b:a100:32b5:c2ff:fee0:1ba4"
-          ],
-          "mac": "30:b5:c2:e0:1b:a4",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "6e:64:8b:d2:6a:33"
-                ],
-                "wireless": [
-                  "6e:64:8b:d2:6a:31"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "30b5c2e01ba4",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 4981.620000000185
-    },
-    {
-      "clients": 8,
+      "clients": 5,
       "id": "c46e1fb8f8a2",
       "name": {
         "hardware": {
@@ -10632,10 +10567,75 @@
         "vpn": false
       },
       "online": true,
-      "score": 4975.540000000173
+      "score": 4983.000000000173
     },
     {
-      "clients": 3,
+      "clients": 0,
+      "id": "30b5c2e01ba4",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v9",
+          "nproc": 1
+        },
+        "hostname": "Sohnenbuppe",
+        "location": {
+          "latitude": 50.012038,
+          "longitude": 8.351513
+        },
+        "network": {
+          "addresses": [
+            "fe80::32b5:c2ff:fee0:1ba4",
+            "2a03:2260:11b:1700:32b5:c2ff:fee0:1ba4",
+            "fd56:b4dc:4b1e:0:32b5:c2ff:fee0:1ba4",
+            "2a03:2260:11b:700:32b5:c2ff:fee0:1ba4",
+            "2a03:2260:11b:a100:32b5:c2ff:fee0:1ba4"
+          ],
+          "mac": "30:b5:c2:e0:1b:a4",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "6e:64:8b:d2:6a:33"
+                ],
+                "wireless": [
+                  "6e:64:8b:d2:6a:31"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "30b5c2e01ba4",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 4978.620000000185
+    },
+    {
+      "clients": 1,
       "id": "30b5c2865856",
       "name": {
         "hardware": {
@@ -10700,10 +10700,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4963.060000000214
+      "score": 4968.190000000214
     },
     {
-      "clients": 0,
+      "clients": 2,
       "id": "f8d111495dca",
       "name": {
         "hardware": {
@@ -10765,7 +10765,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4949.100000000165
+      "score": 4956.120000000165
     },
     {
       "clients": 0,
@@ -10826,7 +10826,72 @@
         "vpn": false
       },
       "online": true,
-      "score": 4918.51000000028
+      "score": 4925.520000000281
+    },
+    {
+      "clients": 4,
+      "id": "6470023d86c6",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WDR3500 v1",
+          "nproc": 1
+        },
+        "hostname": "\u262e Make love, not war \u270c",
+        "location": {
+          "latitude": 50.080295,
+          "longitude": 8.226593
+        },
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e:0:6670:2ff:fe3d:86c6",
+            "2a03:2260:11b:a100:6670:2ff:fe3d:86c6",
+            "2a03:2260:11b:700:6670:2ff:fe3d:86c6",
+            "2a03:2260:11b:1700:6670:2ff:fe3d:86c6",
+            "fe80::6670:2ff:fe3d:86c6"
+          ],
+          "mac": "64:70:02:3d:86:c6",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "6a:2c:be:26:9c:ab"
+                ],
+                "wireless": [
+                  "6a:2c:be:26:9c:ad"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "6470023d86c6",
+        "software": {
+          "autoupdater": {
+            "branch": "testing",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 4910.660000000232
     },
     {
       "clients": 0,
@@ -10895,75 +10960,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 4913.640000000366
+      "score": 4906.640000000366
     },
     {
-      "clients": 2,
-      "id": "6470023d86c6",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WDR3500 v1",
-          "nproc": 1
-        },
-        "hostname": "\u262e Make love, not war \u270c",
-        "location": {
-          "latitude": 50.080295,
-          "longitude": 8.226593
-        },
-        "network": {
-          "addresses": [
-            "fd56:b4dc:4b1e:0:6670:2ff:fe3d:86c6",
-            "2a03:2260:11b:a100:6670:2ff:fe3d:86c6",
-            "2a03:2260:11b:700:6670:2ff:fe3d:86c6",
-            "2a03:2260:11b:1700:6670:2ff:fe3d:86c6",
-            "fe80::6670:2ff:fe3d:86c6"
-          ],
-          "mac": "64:70:02:3d:86:c6",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "6a:2c:be:26:9c:ab"
-                ],
-                "wireless": [
-                  "6a:2c:be:26:9c:ad"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "6470023d86c6",
-        "software": {
-          "autoupdater": {
-            "branch": "testing",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 4903.620000000232
-    },
-    {
-      "clients": 22,
+      "clients": 19,
       "id": "68725136eff4",
       "name": {
         "hardware": {
@@ -11019,7 +11019,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4896.240000000109
+      "score": 4904.590000000108
     },
     {
       "clients": 2,
@@ -11081,75 +11081,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4894.390000000171
+      "score": 4901.580000000172
     },
     {
-      "clients": 0,
-      "id": "f4f26d3f3370",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR841N/ND v10",
-          "nproc": 1
-        },
-        "hostname": "Dortamella",
-        "location": {
-          "latitude": 50.01188,
-          "longitude": 8.35013
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:700:f6f2:6dff:fe3f:3370",
-            "2a03:2260:11b:a100:f6f2:6dff:fe3f:3370",
-            "fd56:b4dc:4b1e:0:f6f2:6dff:fe3f:3370",
-            "fe80::f6f2:6dff:fe3f:3370",
-            "2a03:2260:11b:1700:f6f2:6dff:fe3f:3370"
-          ],
-          "mac": "f4:f2:6d:3f:33:70",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "52:ec:38:5f:c6:fb"
-                ],
-                "wireless": [
-                  "52:ec:38:5f:c6:f9"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "f4f26d3f3370",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 4885.6400000003205
-    },
-    {
-      "clients": 0,
+      "clients": 1,
       "id": "c4e984be208c",
       "name": {
         "hardware": {
@@ -11214,7 +11149,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4876.470000000158
+      "score": 4883.480000000158
     },
     {
       "clients": 0,
@@ -11280,10 +11215,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4875.530000000137
+      "score": 4882.530000000137
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "30b5c2b04fe6",
       "name": {
         "hardware": {
@@ -11349,7 +11284,72 @@
         "vpn": false
       },
       "online": true,
-      "score": 4874.350000000323
+      "score": 4881.4100000003245
+    },
+    {
+      "clients": 0,
+      "id": "f4f26d3f3370",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v10",
+          "nproc": 1
+        },
+        "hostname": "Dortamella",
+        "location": {
+          "latitude": 50.01188,
+          "longitude": 8.35013
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:700:f6f2:6dff:fe3f:3370",
+            "2a03:2260:11b:a100:f6f2:6dff:fe3f:3370",
+            "fd56:b4dc:4b1e:0:f6f2:6dff:fe3f:3370",
+            "fe80::f6f2:6dff:fe3f:3370",
+            "2a03:2260:11b:1700:f6f2:6dff:fe3f:3370"
+          ],
+          "mac": "f4:f2:6d:3f:33:70",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "52:ec:38:5f:c6:fb"
+                ],
+                "wireless": [
+                  "52:ec:38:5f:c6:f9"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "f4f26d3f3370",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 4878.6400000003205
     },
     {
       "clients": 2,
@@ -11415,10 +11415,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4864.67000000019
+      "score": 4871.830000000192
     },
     {
-      "clients": 4,
+      "clients": 1,
       "id": "60e327e78e0e",
       "name": {
         "hardware": {
@@ -11480,7 +11480,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4864.210000000162
+      "score": 4871.420000000162
     },
     {
       "clients": 1,
@@ -11545,7 +11545,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4861.040000000264
+      "score": 4868.110000000265
     },
     {
       "clients": 0,
@@ -11612,7 +11612,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4853.0
+      "score": 4860.0
     },
     {
       "clients": 0,
@@ -11679,10 +11679,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4851.2
+      "score": 4856.2
     },
     {
-      "clients": 3,
+      "clients": 0,
       "id": "f4f26d3fca10",
       "name": {
         "hardware": {
@@ -11740,10 +11740,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4829.89000000023
+      "score": 4836.9400000002315
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "60e3279f5a1a",
       "name": {
         "hardware": {
@@ -11809,7 +11809,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4827.180000000328
+      "score": 4834.230000000329
     },
     {
       "clients": 0,
@@ -11872,7 +11872,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4825.840000000058
+      "score": 4832.840000000058
     },
     {
       "clients": 0,
@@ -11941,10 +11941,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4821.450000000034
+      "score": 4828.450000000034
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "ec086b7875d2",
       "name": {
         "hardware": {
@@ -12010,10 +12010,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4811.980000000267
+      "score": 4819.070000000269
     },
     {
-      "clients": 5,
+      "clients": 0,
       "id": "6872513aa922",
       "name": {
         "hardware": {
@@ -12069,7 +12069,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4802.370000000223
+      "score": 4809.430000000223
     },
     {
       "clients": 0,
@@ -12135,10 +12135,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4795.560000000082
+      "score": 4802.560000000082
     },
     {
-      "clients": 5,
+      "clients": 4,
       "id": "60e327be01b4",
       "name": {
         "hardware": {
@@ -12196,7 +12196,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4789.630000000133
+      "score": 4796.880000000132
     },
     {
       "clients": 0,
@@ -12265,7 +12265,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4784.040000000162
+      "score": 4791.040000000162
     },
     {
       "clients": 0,
@@ -12334,10 +12334,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4759.010000000202
+      "score": 4766.020000000202
     },
     {
-      "clients": 3,
+      "clients": 2,
       "id": "6872513aaa74",
       "name": {
         "hardware": {
@@ -12393,7 +12393,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4755.880000000226
+      "score": 4763.100000000227
     },
     {
       "clients": 0,
@@ -12458,10 +12458,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4746.9400000000205
+      "score": 4753.9400000000205
     },
     {
-      "clients": 4,
+      "clients": 2,
       "id": "6872513aa443",
       "name": {
         "hardware": {
@@ -12524,7 +12524,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4744.950000000186
+      "score": 4752.060000000188
     },
     {
       "clients": 0,
@@ -12593,7 +12593,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4718.59000000023
+      "score": 4725.59000000023
     },
     {
       "clients": 0,
@@ -12662,10 +12662,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4716.740000000085
+      "score": 4723.7500000000855
     },
     {
-      "clients": 5,
+      "clients": 1,
       "id": "6872513aaa5b",
       "name": {
         "hardware": {
@@ -12721,10 +12721,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4711.090000000316
+      "score": 4718.280000000317
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "ec086b6c58fa",
       "name": {
         "hardware": {
@@ -12791,7 +12791,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4709.6700000001665
+      "score": 4716.720000000168
     },
     {
       "clients": 5,
@@ -12857,7 +12857,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4700.880000000173
+      "score": 4708.230000000174
     },
     {
       "clients": 0,
@@ -12922,10 +12922,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4697.030000000208
+      "score": 4704.030000000208
     },
     {
-      "clients": 6,
+      "clients": 4,
       "id": "60e327e790c8",
       "name": {
         "hardware": {
@@ -12991,7 +12991,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4694.880000000132
+      "score": 4702.170000000132
     },
     {
       "clients": 0,
@@ -13054,7 +13054,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4692.880000000246
+      "score": 4699.890000000246
     },
     {
       "clients": 0,
@@ -13123,10 +13123,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4690.240000000056
+      "score": 4697.240000000056
     },
     {
-      "clients": 1,
+      "clients": 4,
       "id": "68725136f7bd",
       "name": {
         "hardware": {
@@ -13183,7 +13183,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4683.48000000033
+      "score": 4690.6000000003305
     },
     {
       "clients": 1,
@@ -13242,7 +13242,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4673.380000000324
+      "score": 4680.460000000326
     },
     {
       "clients": 0,
@@ -13311,10 +13311,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4664.310000000245
+      "score": 4671.310000000245
     },
     {
-      "clients": 2,
+      "clients": 1,
       "id": "f4f26d3f10a2",
       "name": {
         "hardware": {
@@ -13380,7 +13380,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4657.610000000136
+      "score": 4664.760000000138
     },
     {
       "clients": 2,
@@ -13469,10 +13469,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4626.090000000348
+      "score": 4633.24000000035
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "30b5c27e3788",
       "name": {
         "hardware": {
@@ -13539,7 +13539,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4619.850000000144
+      "score": 4626.860000000144
     },
     {
       "clients": 0,
@@ -13609,7 +13609,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4596.530000000102
+      "score": 4603.530000000102
     },
     {
       "clients": 0,
@@ -13680,10 +13680,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4567.580000000012
+      "score": 4574.600000000012
     },
     {
-      "clients": 6,
+      "clients": 2,
       "id": "30b5c2bd714a",
       "name": {
         "hardware": {
@@ -13745,10 +13745,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4565.160000000148
+      "score": 4572.33000000015
     },
     {
-      "clients": 2,
+      "clients": 10,
       "id": "30b5c2d5c9d5",
       "name": {
         "hardware": {
@@ -13815,10 +13815,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4561.670000000142
+      "score": 4568.810000000143
     },
     {
-      "clients": 3,
+      "clients": 1,
       "id": "30b5c2bd71d2",
       "name": {
         "hardware": {
@@ -13880,10 +13880,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4544.110000000192
+      "score": 4551.220000000193
     },
     {
-      "clients": 7,
+      "clients": 4,
       "id": "30b5c2bd7190",
       "name": {
         "hardware": {
@@ -13945,7 +13945,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4533.070000000131
+      "score": 4540.440000000132
     },
     {
       "clients": 0,
@@ -14013,8 +14013,8 @@
         },
         "vpn": false
       },
-      "online": false,
-      "score": 4521.740000000069
+      "online": true,
+      "score": 4520.740000000069
     },
     {
       "clients": 0,
@@ -14083,7 +14083,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4510.690000000263
+      "score": 4517.690000000263
     },
     {
       "clients": 0,
@@ -14148,10 +14148,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4503.750000000108
+      "score": 4510.750000000108
     },
     {
-      "clients": 14,
+      "clients": 10,
       "id": "f4f26ddc358a",
       "name": {
         "hardware": {
@@ -14217,10 +14217,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4485.299999999987
+      "score": 4493.139999999988
     },
     {
-      "clients": 2,
+      "clients": 0,
       "id": "74ea3ad12c74",
       "name": {
         "hardware": {
@@ -14282,10 +14282,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4474.930000000231
+      "score": 4482.000000000233
     },
     {
-      "clients": 0,
+      "clients": 2,
       "id": "f4f26d4a2e28",
       "name": {
         "hardware": {
@@ -14352,7 +14352,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4460.270000000101
+      "score": 4467.290000000102
     },
     {
       "clients": 0,
@@ -14421,10 +14421,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4438.320000000103
+      "score": 4445.320000000103
     },
     {
-      "clients": 3,
+      "clients": 2,
       "id": "f4f26dd7acda",
       "name": {
         "hardware": {
@@ -14490,7 +14490,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4423.080000000158
+      "score": 4430.220000000161
     },
     {
       "clients": 6,
@@ -14555,10 +14555,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4406.95000000019
+      "score": 4410.200000000191
     },
     {
-      "clients": 3,
+      "clients": 4,
       "id": "60e327cf436a",
       "name": {
         "hardware": {
@@ -14624,10 +14624,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4397.370000000137
+      "score": 4404.590000000136
     },
     {
-      "clients": 5,
+      "clients": 9,
       "id": "6872514240d4",
       "name": {
         "hardware": {
@@ -14684,7 +14684,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4374.900000000062
+      "score": 4382.420000000062
     },
     {
       "clients": 6,
@@ -14750,7 +14750,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4358.860000000075
+      "score": 4366.200000000076
     },
     {
       "clients": 4,
@@ -14816,7 +14816,69 @@
         "vpn": false
       },
       "online": true,
-      "score": 4312.860000000303
+      "score": 4320.180000000304
+    },
+    {
+      "clients": 2,
+      "id": "10feed846736",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WDR3600 v1",
+          "nproc": 1
+        },
+        "hostname": "FFWI-KoWilh4-Hof",
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:a100:12fe:edff:fe84:6736",
+            "2a03:2260:11b:1700:12fe:edff:fe84:6736",
+            "fd56:b4dc:4b1e:0:12fe:edff:fe84:6736",
+            "2a03:2260:11b:700:12fe:edff:fe84:6736",
+            "fe80::12fe:edff:fe84:6736"
+          ],
+          "mac": "10:fe:ed:84:67:36",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "d6:95:81:67:34:f3",
+                  "d6:95:81:67:34:f0"
+                ],
+                "wireless": [
+                  "d6:95:81:67:34:f1"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "10feed846736",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 4302.400000000199
     },
     {
       "clients": 0,
@@ -14885,72 +14947,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 4296.740000000156
+      "score": 4289.740000000156
     },
     {
-      "clients": 1,
-      "id": "10feed846736",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WDR3600 v1",
-          "nproc": 1
-        },
-        "hostname": "FFWI-KoWilh4-Hof",
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:a100:12fe:edff:fe84:6736",
-            "2a03:2260:11b:1700:12fe:edff:fe84:6736",
-            "fd56:b4dc:4b1e:0:12fe:edff:fe84:6736",
-            "2a03:2260:11b:700:12fe:edff:fe84:6736",
-            "fe80::12fe:edff:fe84:6736"
-          ],
-          "mac": "10:fe:ed:84:67:36",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "d6:95:81:67:34:f3",
-                  "d6:95:81:67:34:f0"
-                ],
-                "wireless": [
-                  "d6:95:81:67:34:f1"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "10feed846736",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 4295.310000000197
-    },
-    {
-      "clients": 6,
+      "clients": 3,
       "id": "f4f26d4a2f2a",
       "name": {
         "hardware": {
@@ -15009,7 +15009,76 @@
         "vpn": false
       },
       "online": true,
-      "score": 4280.45000000009
+      "score": 4287.670000000089
+    },
+    {
+      "clients": 0,
+      "id": "18a6f76e0dfe",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR842N/ND v3",
+          "nproc": 1
+        },
+        "hostname": "TARDIS-Funk",
+        "location": {
+          "latitude": 50.0821208,
+          "longitude": 8.22663277
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:1aa6:f7ff:fe6e:dfe",
+            "fe80::1aa6:f7ff:fe6e:dfe",
+            "2a03:2260:11b:700:1aa6:f7ff:fe6e:dfe",
+            "fd56:b4dc:4b1e:0:1aa6:f7ff:fe6e:dfe",
+            "2a03:2260:11b:a100:1aa6:f7ff:fe6e:dfe"
+          ],
+          "mac": "18:a6:f7:6e:0d:fe",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "06:71:43:27:eb:63"
+                ],
+                "tunnel": [
+                  "06:71:43:27:eb:67"
+                ],
+                "wireless": [
+                  "06:71:43:27:eb:61"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "18a6f76e0dfe",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 4272.6100000001015
     },
     {
       "clients": 0,
@@ -15079,79 +15148,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 4269.1300000003575
+      "score": 4262.1300000003575
     },
     {
-      "clients": 0,
-      "id": "18a6f76e0dfe",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR842N/ND v3",
-          "nproc": 1
-        },
-        "hostname": "TARDIS-Funk",
-        "location": {
-          "latitude": 50.0821208,
-          "longitude": 8.22663277
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:1700:1aa6:f7ff:fe6e:dfe",
-            "fe80::1aa6:f7ff:fe6e:dfe",
-            "2a03:2260:11b:700:1aa6:f7ff:fe6e:dfe",
-            "fd56:b4dc:4b1e:0:1aa6:f7ff:fe6e:dfe",
-            "2a03:2260:11b:a100:1aa6:f7ff:fe6e:dfe"
-          ],
-          "mac": "18:a6:f7:6e:0d:fe",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "06:71:43:27:eb:63"
-                ],
-                "tunnel": [
-                  "06:71:43:27:eb:67"
-                ],
-                "wireless": [
-                  "06:71:43:27:eb:61"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "18a6f76e0dfe",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 4265.600000000101
-    },
-    {
-      "clients": 0,
+      "clients": 2,
       "id": "f4f26d49faec",
       "name": {
         "hardware": {
@@ -15217,10 +15217,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4242.270000000048
+      "score": 4249.290000000048
     },
     {
-      "clients": 2,
+      "clients": 0,
       "id": "18a6f76e145a",
       "name": {
         "hardware": {
@@ -15282,7 +15282,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4208.4700000002285
+      "score": 4215.52000000023
     },
     {
       "clients": 1,
@@ -15350,7 +15350,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4203.24000000018
+      "score": 4210.2700000001805
     },
     {
       "clients": 7,
@@ -15413,10 +15413,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4194.980000000152
+      "score": 4202.330000000153
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "a0f3c18f9efa",
       "name": {
         "hardware": {
@@ -15484,7 +15484,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4183.640000000058
+      "score": 4190.650000000058
     },
     {
       "clients": 0,
@@ -15546,10 +15546,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4163.840000000007
+      "score": 4170.850000000008
     },
     {
-      "clients": 8,
+      "clients": 6,
       "id": "30b5c2b04e4a",
       "name": {
         "hardware": {
@@ -15615,7 +15615,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4161.330000000044
+      "score": 4164.610000000044
     },
     {
       "clients": 1,
@@ -15680,10 +15680,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4128.540000000441
+      "score": 4135.610000000443
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "30b5c222d6ce",
       "name": {
         "hardware": {
@@ -15750,7 +15750,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4120.2600000001175
+      "score": 4127.270000000118
     },
     {
       "clients": 0,
@@ -15819,10 +15819,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4074.1800000000408
+      "score": 4081.1800000000408
     },
     {
-      "clients": 3,
+      "clients": 1,
       "id": "30b5c2e2ecc6",
       "name": {
         "hardware": {
@@ -15887,10 +15887,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4019.460000000134
+      "score": 4022.5300000001353
     },
     {
-      "clients": 4,
+      "clients": 6,
       "id": "30b5c2e2ec44",
       "name": {
         "hardware": {
@@ -15955,7 +15955,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4018.920000000106
+      "score": 4022.1100000001065
     },
     {
       "clients": 0,
@@ -16020,7 +16020,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 4014.620000000109
+      "score": 4007.620000000109
     },
     {
       "clients": 0,
@@ -16089,7 +16089,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 3939.1600000000954
+      "score": 3932.1600000000954
     },
     {
       "clients": 2,
@@ -16154,7 +16154,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3884.9200000001283
+      "score": 3892.100000000129
     },
     {
       "clients": 0,
@@ -16213,7 +16213,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 3860.6500000001924
+      "score": 3853.6500000001924
     },
     {
       "clients": 0,
@@ -16283,10 +16283,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 3854.970000000185
+      "score": 3847.970000000185
     },
     {
-      "clients": 4,
+      "clients": 1,
       "id": "c46e1fb8f75c",
       "name": {
         "hardware": {
@@ -16351,10 +16351,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 3840.860000000099
+      "score": 3843.9900000001
     },
     {
-      "clients": 3,
+      "clients": 0,
       "id": "14cc20cd0f8e",
       "name": {
         "hardware": {
@@ -16419,8 +16419,8 @@
         },
         "vpn": false
       },
-      "online": true,
-      "score": 3826.460000000111
+      "online": false,
+      "score": 3819.460000000111
     },
     {
       "clients": 0,
@@ -16487,7 +16487,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3792.3600000000542
+      "score": 3799.3600000000542
     },
     {
       "clients": 0,
@@ -16556,7 +16556,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3731.730000000002
+      "score": 3738.730000000002
     },
     {
       "clients": 0,
@@ -16622,10 +16622,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 3685.440000000155
+      "score": 3692.4500000001553
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "c4e984b0ab1c",
       "name": {
         "hardware": {
@@ -16688,7 +16688,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3665.390000000127
+      "score": 3672.4000000001274
     },
     {
       "clients": 3,
@@ -16753,7 +16753,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3624.530000000071
+      "score": 3631.720000000072
     },
     {
       "clients": 0,
@@ -16822,7 +16822,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3613.5700000000156
+      "score": 3620.5700000000156
     },
     {
       "clients": 0,
@@ -16882,7 +16882,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 3613.45000000019
+      "score": 3606.45000000019
     },
     {
       "clients": 0,
@@ -16952,7 +16952,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3551.4400000001574
+      "score": 3558.4400000001574
     },
     {
       "clients": 0,
@@ -17018,7 +17018,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 3425.2300000001856
+      "score": 3418.2300000001856
     },
     {
       "clients": 0,
@@ -17087,10 +17087,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 3348.5000000001
+      "score": 3341.5000000001
     },
     {
-      "clients": 0,
+      "clients": 4,
       "id": "ec086b3539c0",
       "name": {
         "hardware": {
@@ -17155,11 +17155,11 @@
         },
         "vpn": false
       },
-      "online": false,
-      "score": 3335.0100000000284
+      "online": true,
+      "score": 3340.220000000029
     },
     {
-      "clients": 8,
+      "clients": 14,
       "id": "30b5c2b04e5a",
       "name": {
         "hardware": {
@@ -17225,7 +17225,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3286.509999999963
+      "score": 3294.199999999963
     },
     {
       "clients": 0,
@@ -17291,7 +17291,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 3221.960000000218
+      "score": 3214.960000000218
     },
     {
       "clients": 0,
@@ -17354,7 +17354,72 @@
         "vpn": false
       },
       "online": false,
-      "score": 3192.2900000000664
+      "score": 3185.2900000000664
+    },
+    {
+      "clients": 1,
+      "id": "30b5c20ec208",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "WI-FF-59_OPS5-fastd",
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:700:32b5:c2ff:fe0e:c208",
+            "2a03:2260:11b:a100:32b5:c2ff:fe0e:c208",
+            "2a03:2260:11b:1700:32b5:c2ff:fe0e:c208",
+            "fd56:b4dc:4b1e:0:32b5:c2ff:fe0e:c208",
+            "fe80::32b5:c2ff:fe0e:c208"
+          ],
+          "mac": "30:b5:c2:0e:c2:08",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "de:10:10:95:ed:a3"
+                ],
+                "tunnel": [
+                  "de:10:10:95:ed:a7"
+                ],
+                "wireless": [
+                  "de:10:10:95:ed:a1"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "30b5c20ec208",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 3183.890000000079
     },
     {
       "clients": 0,
@@ -17423,72 +17488,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 3183.59000000015
-    },
-    {
-      "clients": 1,
-      "id": "30b5c20ec208",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR1043N/ND v2",
-          "nproc": 1
-        },
-        "hostname": "WI-FF-59_OPS5-fastd",
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:700:32b5:c2ff:fe0e:c208",
-            "2a03:2260:11b:a100:32b5:c2ff:fe0e:c208",
-            "2a03:2260:11b:1700:32b5:c2ff:fe0e:c208",
-            "fd56:b4dc:4b1e:0:32b5:c2ff:fe0e:c208",
-            "fe80::32b5:c2ff:fe0e:c208"
-          ],
-          "mac": "30:b5:c2:0e:c2:08",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "de:10:10:95:ed:a3"
-                ],
-                "tunnel": [
-                  "de:10:10:95:ed:a7"
-                ],
-                "wireless": [
-                  "de:10:10:95:ed:a1"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "30b5c20ec208",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 3176.8100000000777
+      "score": 3176.59000000015
     },
     {
       "clients": 0,
@@ -17558,7 +17558,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3128.5400000000054
+      "score": 3135.5400000000054
     },
     {
       "clients": 1,
@@ -17623,7 +17623,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3107.980000000077
+      "score": 3115.0500000000784
     },
     {
       "clients": 0,
@@ -17688,7 +17688,73 @@
         "vpn": false
       },
       "online": true,
-      "score": 3094.320000000027
+      "score": 3101.320000000027
+    },
+    {
+      "clients": 0,
+      "id": "10feedc3713d",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WA801N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "ganzoben",
+        "location": {
+          "altitude": 142,
+          "latitude": 50.071203,
+          "longitude": 8.233498
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:12fe:edff:fec3:713d",
+            "fd56:b4dc:4b1e:0:12fe:edff:fec3:713d",
+            "fe80::12fe:edff:fec3:713d",
+            "2a03:2260:11b:a100:12fe:edff:fec3:713d",
+            "2a03:2260:11b:700:12fe:edff:fec3:713d"
+          ],
+          "mac": "10:fe:ed:c3:71:3d",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "22:b3:d6:0e:f3:03"
+                ],
+                "wireless": [
+                  "22:b3:d6:0e:f3:01"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "10feedc3713d",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 3054.030000000045
     },
     {
       "clients": 0,
@@ -17759,73 +17825,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 3059.1900000001615
-    },
-    {
-      "clients": 0,
-      "id": "10feedc3713d",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WA801N/ND v2",
-          "nproc": 1
-        },
-        "hostname": "ganzoben",
-        "location": {
-          "altitude": 142,
-          "latitude": 50.071203,
-          "longitude": 8.233498
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:1700:12fe:edff:fec3:713d",
-            "fd56:b4dc:4b1e:0:12fe:edff:fec3:713d",
-            "fe80::12fe:edff:fec3:713d",
-            "2a03:2260:11b:a100:12fe:edff:fec3:713d",
-            "2a03:2260:11b:700:12fe:edff:fec3:713d"
-          ],
-          "mac": "10:fe:ed:c3:71:3d",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "22:b3:d6:0e:f3:03"
-                ],
-                "wireless": [
-                  "22:b3:d6:0e:f3:01"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "10feedc3713d",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 3047.030000000045
+      "score": 3052.1900000001615
     },
     {
       "clients": 0,
@@ -17894,7 +17894,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3003.1100000001484
+      "score": 3010.1100000001484
     },
     {
       "clients": 0,
@@ -17954,7 +17954,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 2960.3399999999933
+      "score": 2953.3399999999933
     },
     {
       "clients": 0,
@@ -18020,7 +18020,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 2954.270000000125
+      "score": 2947.270000000125
     },
     {
       "clients": 0,
@@ -18090,7 +18090,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2931.1200000000194
+      "score": 2938.1200000000194
     },
     {
       "clients": 1,
@@ -18159,10 +18159,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2921.0900000001516
+      "score": 2928.160000000153
     },
     {
-      "clients": 3,
+      "clients": 0,
       "id": "14cc20e15832",
       "name": {
         "hardware": {
@@ -18227,11 +18227,11 @@
         },
         "vpn": false
       },
-      "online": true,
-      "score": 2862.9900000001658
+      "online": false,
+      "score": 2862.020000000166
     },
     {
-      "clients": 10,
+      "clients": 7,
       "id": "a0f3c174a686",
       "name": {
         "hardware": {
@@ -18298,7 +18298,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2833.5899999999415
+      "score": 2841.189999999942
     },
     {
       "clients": 5,
@@ -18363,7 +18363,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2814.7500000000323
+      "score": 2822.010000000033
     },
     {
       "clients": 0,
@@ -18431,7 +18431,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2765.410000000023
+      "score": 2772.410000000023
     },
     {
       "clients": 0,
@@ -18496,7 +18496,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2760.6700000000214
+      "score": 2767.6700000000214
     },
     {
       "clients": 0,
@@ -18566,10 +18566,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 2698.4000000000474
+      "score": 2691.4000000000474
     },
     {
-      "clients": 9,
+      "clients": 7,
       "id": "30b5c2b04e08",
       "name": {
         "hardware": {
@@ -18635,7 +18635,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2678.7799999999465
+      "score": 2686.319999999947
     },
     {
       "clients": 0,
@@ -18705,7 +18705,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 2630.9800000000837
+      "score": 2623.9800000000837
     },
     {
       "clients": 0,
@@ -18773,7 +18773,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2590.999999999994
+      "score": 2597.999999999994
     },
     {
       "clients": 0,
@@ -18838,10 +18838,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 2590.5199999999995
+      "score": 2583.5199999999995
     },
     {
-      "clients": 2,
+      "clients": 3,
       "id": "e894f64b3cf0",
       "name": {
         "hardware": {
@@ -18906,10 +18906,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2573.8199999999433
+      "score": 2580.9699999999434
     },
     {
-      "clients": 5,
+      "clients": 4,
       "id": "f4f26d4a2f80",
       "name": {
         "hardware": {
@@ -18968,10 +18968,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2529.7099999999696
+      "score": 2536.99999999997
     },
     {
-      "clients": 5,
+      "clients": 6,
       "id": "f4f26d4a2f3a",
       "name": {
         "hardware": {
@@ -19030,10 +19030,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2476.0900000000047
+      "score": 2483.4500000000057
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "90f6523c80a2",
       "name": {
         "hardware": {
@@ -19099,7 +19099,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2453.330000000034
+      "score": 2460.3500000000345
     },
     {
       "clients": 0,
@@ -19160,7 +19160,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2442.790000000024
+      "score": 2449.790000000024
     },
     {
       "clients": 0,
@@ -19229,10 +19229,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2328.859999999989
+      "score": 2335.859999999989
     },
     {
-      "clients": 5,
+      "clients": 4,
       "id": "90f652f60be0",
       "name": {
         "hardware": {
@@ -19299,10 +19299,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2234.0199999999363
+      "score": 2241.379999999937
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "e8de27f6f66e",
       "name": {
         "hardware": {
@@ -19368,10 +19368,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2233.730000000026
+      "score": 2240.7500000000264
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "a42bb0e056ba",
       "name": {
         "hardware": {
@@ -19437,7 +19437,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2214.8100000000045
+      "score": 2221.8200000000047
     },
     {
       "clients": 0,
@@ -19506,7 +19506,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2197.489999999981
+      "score": 2204.489999999981
     },
     {
       "clients": 0,
@@ -19571,7 +19571,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2184.980000000001
+      "score": 2191.980000000001
     },
     {
       "clients": 2,
@@ -19641,7 +19641,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2184.0699999999965
+      "score": 2191.149999999998
     },
     {
       "clients": 0,
@@ -19706,7 +19706,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 2162.020000000056
+      "score": 2155.020000000056
     },
     {
       "clients": 1,
@@ -19768,7 +19768,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2116.1399999999994
+      "score": 2123.210000000001
     },
     {
       "clients": 0,
@@ -19837,7 +19837,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2071.20999999998
+      "score": 2078.2199999999802
     },
     {
       "clients": 0,
@@ -19904,7 +19904,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2033.5799999999933
+      "score": 2040.6199999999933
     },
     {
       "clients": 0,
@@ -19973,7 +19973,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1873.6999999999987
+      "score": 1880.7099999999987
     },
     {
       "clients": 3,
@@ -20038,7 +20038,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1786.6599999999783
+      "score": 1793.919999999978
     },
     {
       "clients": 0,
@@ -20107,7 +20107,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1716.489999999998
+      "score": 1723.489999999998
     },
     {
       "clients": 0,
@@ -20173,10 +20173,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 1716.3799999999997
+      "score": 1723.3799999999997
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "c04a00a04664",
       "name": {
         "hardware": {
@@ -20238,7 +20238,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1588.2299999999893
+      "score": 1595.2599999999893
     },
     {
       "clients": 0,
@@ -20304,7 +20304,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1568.2699999999952
+      "score": 1575.2699999999952
     },
     {
       "clients": 1,
@@ -20373,10 +20373,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 1497.989999999986
+      "score": 1505.0599999999858
     },
     {
-      "clients": 19,
+      "clients": 14,
       "id": "f4f26d528338",
       "name": {
         "hardware": {
@@ -20439,10 +20439,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 1474.490000000016
+      "score": 1482.5300000000163
     },
     {
-      "clients": 7,
+      "clients": 8,
       "id": "6872514240f9",
       "name": {
         "hardware": {
@@ -20501,10 +20501,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 1464.4699999999773
+      "score": 1471.849999999977
     },
     {
-      "clients": 0,
+      "clients": 7,
       "id": "f09fc2e4119d",
       "name": {
         "hardware": {
@@ -20568,10 +20568,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 1435.7599999999811
+      "score": 1442.899999999981
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "60e327b2df46",
       "name": {
         "hardware": {
@@ -20632,8 +20632,8 @@
         },
         "vpn": false
       },
-      "online": true,
-      "score": 1390.4999999999748
+      "online": false,
+      "score": 1395.5699999999747
     },
     {
       "clients": 2,
@@ -20698,7 +20698,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1300.0199999999936
+      "score": 1307.1599999999935
     },
     {
       "clients": 0,
@@ -20763,7 +20763,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 1293.3799999999917
+      "score": 1286.3799999999917
     },
     {
       "clients": 0,
@@ -20824,7 +20824,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1233.0599999999956
+      "score": 1240.0599999999956
     },
     {
       "clients": 0,
@@ -20891,7 +20891,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1197.989999999998
+      "score": 1204.989999999998
     },
     {
       "clients": 0,
@@ -20952,7 +20952,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1144.799999999996
+      "score": 1151.809999999996
     },
     {
       "clients": 0,
@@ -21021,7 +21021,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1131.8999999999971
+      "score": 1138.8999999999971
     },
     {
       "clients": 0,
@@ -21091,7 +21091,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 1105.279999999994
+      "score": 1098.279999999994
     },
     {
       "clients": 0,
@@ -21156,10 +21156,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 1029.319999999999
+      "score": 1036.319999999999
     },
     {
-      "clients": 0,
+      "clients": 2,
       "id": "18d6c751af4e",
       "name": {
         "hardware": {
@@ -21220,8 +21220,8 @@
         },
         "vpn": false
       },
-      "online": false,
-      "score": 1015.939999999988
+      "online": true,
+      "score": 1023.0199999999879
     },
     {
       "clients": 0,
@@ -21286,7 +21286,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 956.9399999999985
+      "score": 963.9399999999985
     },
     {
       "clients": 0,
@@ -21354,7 +21354,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 947.7399999999934
+      "score": 954.7399999999934
     },
     {
       "clients": 0,
@@ -21423,7 +21423,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 783.2099999999994
+      "score": 776.2099999999994
     },
     {
       "clients": 0,
@@ -21487,8 +21487,8 @@
         },
         "vpn": false
       },
-      "online": false,
-      "score": 769.0
+      "online": true,
+      "score": 772.0
     },
     {
       "clients": 0,
@@ -21554,7 +21554,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 704.5899999999986
+      "score": 711.6099999999985
     },
     {
       "clients": 0,
@@ -21624,7 +21624,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 687.3999999999933
+      "score": 680.3999999999933
     },
     {
       "clients": 0,
@@ -21693,7 +21693,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 508.01
+      "score": 515.01
     },
     {
       "clients": 0,
@@ -21762,7 +21762,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 489.26999999999987
+      "score": 482.26999999999987
     },
     {
       "clients": 0,
@@ -21831,10 +21831,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 458.02999999999304
+      "score": 451.02999999999304
     },
     {
-      "clients": 8,
+      "clients": 2,
       "id": "f4f26d5281b2",
       "name": {
         "hardware": {
@@ -21896,7 +21896,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 427.6499999999996
+      "score": 435.03999999999957
     },
     {
       "clients": 0,
@@ -21966,7 +21966,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 416.2699999999968
+      "score": 409.2699999999968
     },
     {
       "clients": 0,
@@ -22031,7 +22031,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 369.3399999999991
+      "score": 376.3399999999991
     },
     {
       "clients": 0,
@@ -22101,7 +22101,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 329.3499999999993
+      "score": 336.3499999999993
     },
     {
       "clients": 0,
@@ -22167,7 +22167,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 204.42
+      "score": 197.42
     },
     {
       "clients": 1,
@@ -22236,7 +22236,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 121.10000000000025
+      "score": 128.17000000000027
     },
     {
       "clients": 0,
@@ -22305,7 +22305,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 116.57000000000002
+      "score": 123.57000000000002
     },
     {
       "clients": 0,
@@ -22374,7 +22374,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 101.37999999999998
+      "score": 108.37999999999998
     },
     {
       "clients": 0,
@@ -22428,7 +22428,61 @@
         "vpn": true
       },
       "online": true,
-      "score": 25.0
+      "score": 32.0
+    },
+    {
+      "clients": 0,
+      "id": "02410a380017",
+      "name": {
+        "hardware": {
+          "nproc": 4
+        },
+        "hostname": "lotuswurzel",
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e::a38:17",
+            "fe80::42:aff:fe38:17",
+            "fe80::78fa:64ff:fe90:75ca",
+            "2a03:2260:11b::a38:17"
+          ],
+          "mac": "02:41:0a:38:00:17",
+          "mesh": {
+            "wiBAT": {
+              "interfaces": {
+                "tunnel": [
+                  "02:00:0a:38:01:17",
+                  "02:00:0a:38:00:17"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "02410a380017",
+        "software": {
+          "autoupdater": {},
+          "batman-adv": {
+            "version": "2017.1"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "Ubuntu",
+            "release": "14.04"
+          },
+          "status-page": {
+            "api": 0
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": true
+      },
+      "online": true,
+      "score": 19.0
     },
     {
       "clients": 0,
@@ -22482,7 +22536,7 @@
         "vpn": true
       },
       "online": true,
-      "score": 15.0
+      "score": 13.0
     },
     {
       "clients": 0,
@@ -22544,330 +22598,43 @@
         "vpn": false
       },
       "online": false,
-      "score": 13.069999999999999
+      "score": 8.079999999999998
     },
     {
       "clients": 0,
-      "id": "c46e1f977670",
+      "id": "c04a006cef40",
       "name": {
         "hardware": {
-          "model": "TP-Link TL-WR1043N/ND v2",
+          "model": "TP-Link TL-WDR3600 v1",
           "nproc": 1
         },
-        "hostname": "CD-COLOR",
-        "location": {
-          "latitude": 50.082656,
-          "longitude": 8.280808
-        },
+        "hostname": "krawallundremmidemmi",
         "network": {
           "addresses": [
-            "2a03:2260:11b:a100:c66e:1fff:fe97:7670",
-            "2a03:2260:11b:700:c66e:1fff:fe97:7670",
-            "fd56:b4dc:4b1e:0:c66e:1fff:fe97:7670",
-            "2a03:2260:11b:1700:c66e:1fff:fe97:7670",
-            "fe80::c66e:1fff:fe97:7670"
+            "2a03:2260:11b:a100:c24a:ff:fe6c:ef40",
+            "fe80::c24a:ff:fe6c:ef40",
+            "2a03:2260:11b:700:c24a:ff:fe6c:ef40",
+            "fd56:b4dc:4b1e:0:c24a:ff:fe6c:ef40",
+            "2a03:2260:11b:1700:c24a:ff:fe6c:ef40",
+            "2a03:2260:11b:e700:c24a:ff:fe6c:ef40"
           ],
-          "mac": "c4:6e:1f:97:76:70",
+          "mac": "c0:4a:00:6c:ef:40",
           "mesh": {
             "bat0": {
               "interfaces": {
                 "other": [
-                  "d6:73:c2:5f:fd:a3"
-                ],
-                "tunnel": [
-                  "d6:73:c2:5f:fd:a7"
+                  "76:14:8a:e6:4d:1b"
                 ],
                 "wireless": [
-                  "d6:73:c2:5f:fd:a1"
+                  "76:14:8a:e6:4d:1d",
+                  "76:14:8a:e6:4d:19"
                 ]
               }
             }
           },
           "mesh_interfaces": null
         },
-        "node_id": "c46e1f977670",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 12.450000000000003
-    },
-    {
-      "clients": 0,
-      "id": "02410a380017",
-      "name": {
-        "hardware": {
-          "nproc": 4
-        },
-        "hostname": "lotuswurzel",
-        "network": {
-          "addresses": [
-            "fd56:b4dc:4b1e::a38:17",
-            "fe80::42:aff:fe38:17",
-            "fe80::78fa:64ff:fe90:75ca",
-            "2a03:2260:11b::a38:17"
-          ],
-          "mac": "02:41:0a:38:00:17",
-          "mesh": {
-            "wiBAT": {
-              "interfaces": {
-                "tunnel": [
-                  "02:00:0a:38:01:17",
-                  "02:00:0a:38:00:17"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "02410a380017",
-        "software": {
-          "autoupdater": {},
-          "batman-adv": {
-            "version": "2017.1"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "Ubuntu",
-            "release": "14.04"
-          },
-          "status-page": {
-            "api": 0
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": true
-      },
-      "online": true,
-      "score": 12.0
-    },
-    {
-      "clients": 0,
-      "id": "02410a3800e7",
-      "name": {
-        "hardware": {
-          "nproc": 3
-        },
-        "hostname": "wasserfloh",
-        "network": {
-          "addresses": [
-            "fe80::4c8f:b5ff:fe91:80a7",
-            "fd56:b4dc:4b1e::a38:e7",
-            "fe80::42:aff:fe38:e7",
-            "2a03:2260:11b::a38:e7"
-          ],
-          "mac": "02:41:0a:38:00:e7",
-          "mesh": {
-            "wiBAT": {
-              "interfaces": {
-                "tunnel": [
-                  "02:00:0a:38:01:e7",
-                  "02:00:0a:38:00:e7"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "02410a3800e7",
-        "software": {
-          "autoupdater": {},
-          "batman-adv": {
-            "version": "2017.1"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v17"
-          },
-          "firmware": {
-            "base": "Ubuntu",
-            "release": "14.04"
-          },
-          "status-page": {
-            "api": 0
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": true
-      },
-      "online": false,
-      "score": 9.0
-    },
-    {
-      "clients": 0,
-      "id": "02010a380065",
-      "name": {
-        "hardware": {
-          "nproc": 4
-        },
-        "hostname": "uffschnitt",
-        "network": {
-          "addresses": [
-            "2a03:2260:11b::65",
-            "fd56:b4dc:4b1e::65",
-            "fe80::1:aff:fe38:65"
-          ],
-          "mac": "02:01:0a:38:00:65",
-          "mesh": {
-            "wibat": {
-              "interfaces": {
-                "tunnel": [
-                  "02:21:0a:38:00:65",
-                  "02:20:0a:38:00:65",
-                  "02:30:0a:38:00:65",
-                  "02:00:0a:38:00:65"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "02010a380065",
-        "software": {
-          "autoupdater": {},
-          "batman-adv": {
-            "version": "2017.3"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18-16-g4b8c4f5"
-          },
-          "firmware": {
-            "base": "Debian",
-            "release": "9.2"
-          },
-          "status-page": {
-            "api": 0
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": true
-      },
-      "online": false,
-      "score": 9.0
-    },
-    {
-      "clients": 0,
-      "id": "001999f72f2b",
-      "name": {
-        "hardware": {
-          "model": "AMD G-T44R Processor",
-          "nproc": 1
-        },
-        "hostname": "Wein-LAN-F",
-        "network": {
-          "addresses": [
-            "fd56:b4dc:4b1e:0:219:99ff:fef7:2f2b",
-            "fe80::219:99ff:fef7:2f2b"
-          ],
-          "mac": "00:19:99:f7:2f:2b",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "ba:db:df:6c:42:5b",
-                  "ba:db:df:6c:42:58"
-                ],
-                "tunnel": [
-                  "ba:db:df:6c:42:5f"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "001999f72f2b",
-        "software": {
-          "autoupdater": {
-            "branch": "stable"
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 9.0
-    },
-    {
-      "clients": 0,
-      "id": "3c46d80b3ca8",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR703N v1",
-          "nproc": 1
-        },
-        "hostname": "flip-03",
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:a100:3e46:d8ff:fe0b:3ca8",
-            "fd56:b4dc:4b1e:0:3e46:d8ff:fe0b:3ca8",
-            "fe80::3e46:d8ff:fe0b:3ca8"
-          ],
-          "mac": "3c:46:d8:0b:3c:a8",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "56:21:ce:70:cf:13"
-                ],
-                "wireless": [
-                  "56:21:ce:70:cf:11"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "3c46d80b3ca8",
+        "node_id": "c04a006cef40",
         "software": {
           "autoupdater": {
             "branch": "stable",
@@ -22895,6 +22662,138 @@
       },
       "online": false,
       "score": 8.0
+    },
+    {
+      "clients": 0,
+      "id": "30b5c2e30fa4",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "BlauesDorf2",
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:a100:32b5:c2ff:fee3:fa4",
+            "2a03:2260:11b:e700:32b5:c2ff:fee3:fa4",
+            "2a03:2260:11b:700:32b5:c2ff:fee3:fa4",
+            "fe80::32b5:c2ff:fee3:fa4",
+            "2a03:2260:11b:1700:32b5:c2ff:fee3:fa4",
+            "fd56:b4dc:4b1e:0:32b5:c2ff:fee3:fa4"
+          ],
+          "mac": "30:b5:c2:e3:0f:a4",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "8e:9e:b3:de:7d:bb"
+                ],
+                "tunnel": [
+                  "8e:9e:b3:de:7d:bf"
+                ],
+                "wireless": [
+                  "8e:9e:b3:de:7d:ba"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "30b5c2e30fa4",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.2",
+            "release": "2016.2.2+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 7.0
+    },
+    {
+      "clients": 0,
+      "id": "30b5c23e9da6",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "BlauesDorf",
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e:0:32b5:c2ff:fe3e:9da6",
+            "2a03:2260:11b:e700:32b5:c2ff:fe3e:9da6",
+            "2a03:2260:11b:700:32b5:c2ff:fe3e:9da6",
+            "2a03:2260:11b:a100:32b5:c2ff:fe3e:9da6",
+            "fe80::32b5:c2ff:fe3e:9da6",
+            "2a03:2260:11b:1700:32b5:c2ff:fe3e:9da6"
+          ],
+          "mac": "30:b5:c2:3e:9d:a6",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "1a:6e:12:a5:5c:73"
+                ],
+                "tunnel": [
+                  "1a:6e:12:a5:5c:77"
+                ],
+                "wireless": [
+                  "1a:6e:12:a5:5c:72"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "30b5c23e9da6",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.2",
+            "release": "2016.2.2+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 7.0
     },
     {
       "clients": 0,
@@ -22962,395 +22861,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 8.0
-    },
-    {
-      "clients": 0,
-      "id": "30b5c2b04f54",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR1043N/ND v2",
-          "nproc": 1
-        },
-        "hostname": "ReinheimerIT-Service",
-        "location": {
-          "latitude": 49.960917,
-          "longitude": 8.37777
-        },
-        "network": {
-          "addresses": [
-            "fe80::32b5:c2ff:feb0:4f54",
-            "fd56:b4dc:4b1e:0:32b5:c2ff:feb0:4f54"
-          ],
-          "mac": "30:b5:c2:b0:4f:54",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "82:7c:49:07:13:83"
-                ],
-                "tunnel": [
-                  "82:7c:49:07:13:87"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "30b5c2b04f54",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.2",
-            "release": "2016.2.2+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
       "score": 7.0
-    },
-    {
-      "clients": 0,
-      "id": "60e327369a5e",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR841N/ND v10",
-          "nproc": 1
-        },
-        "hostname": "Splattbinat",
-        "location": {
-          "latitude": 49.998288,
-          "longitude": 8.29096
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:1700:62e3:27ff:fe36:9a5e",
-            "2a03:2260:11b:a100:62e3:27ff:fe36:9a5e",
-            "fd56:b4dc:4b1e:0:62e3:27ff:fe36:9a5e",
-            "fe80::62e3:27ff:fe36:9a5e",
-            "2a03:2260:11b:e700:62e3:27ff:fe36:9a5e"
-          ],
-          "mac": "60:e3:27:36:9a:5e",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "c2:7b:cf:ae:d7:0b"
-                ],
-                "wireless": [
-                  "c2:7b:cf:ae:d7:09"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "60e327369a5e",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 7.0
-    },
-    {
-      "clients": 0,
-      "id": "ec086b41c71e",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR710N v2.1",
-          "nproc": 1
-        },
-        "hostname": "Reisestecker",
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:a100:ee08:6bff:fe41:c71e",
-            "2a03:2260:11b:700:ee08:6bff:fe41:c71e",
-            "fd56:b4dc:4b1e:0:ee08:6bff:fe41:c71e",
-            "2a03:2260:11b:1700:ee08:6bff:fe41:c71e",
-            "fe80::ee08:6bff:fe41:c71e"
-          ],
-          "mac": "ec:08:6b:41:c7:1e",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "3e:21:19:27:ba:a3"
-                ],
-                "tunnel": [
-                  "3e:21:19:27:ba:a7"
-                ],
-                "wireless": [
-                  "3e:21:19:27:ba:a1"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "ec086b41c71e",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 7.0
-    },
-    {
-      "clients": 0,
-      "id": "c04a006cef40",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WDR3600 v1",
-          "nproc": 1
-        },
-        "hostname": "krawallundremmidemmi",
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:a100:c24a:ff:fe6c:ef40",
-            "fe80::c24a:ff:fe6c:ef40",
-            "2a03:2260:11b:700:c24a:ff:fe6c:ef40",
-            "fd56:b4dc:4b1e:0:c24a:ff:fe6c:ef40",
-            "2a03:2260:11b:1700:c24a:ff:fe6c:ef40",
-            "2a03:2260:11b:e700:c24a:ff:fe6c:ef40"
-          ],
-          "mac": "c0:4a:00:6c:ef:40",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "76:14:8a:e6:4d:1b"
-                ],
-                "wireless": [
-                  "76:14:8a:e6:4d:1d",
-                  "76:14:8a:e6:4d:19"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "c04a006cef40",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 5.0
-    },
-    {
-      "clients": 0,
-      "id": "30b5c2e30fa4",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR1043N/ND v2",
-          "nproc": 1
-        },
-        "hostname": "BlauesDorf2",
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:a100:32b5:c2ff:fee3:fa4",
-            "2a03:2260:11b:e700:32b5:c2ff:fee3:fa4",
-            "2a03:2260:11b:700:32b5:c2ff:fee3:fa4",
-            "fe80::32b5:c2ff:fee3:fa4",
-            "2a03:2260:11b:1700:32b5:c2ff:fee3:fa4",
-            "fd56:b4dc:4b1e:0:32b5:c2ff:fee3:fa4"
-          ],
-          "mac": "30:b5:c2:e3:0f:a4",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "8e:9e:b3:de:7d:bb"
-                ],
-                "tunnel": [
-                  "8e:9e:b3:de:7d:bf"
-                ],
-                "wireless": [
-                  "8e:9e:b3:de:7d:ba"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "30b5c2e30fa4",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.2",
-            "release": "2016.2.2+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 4.0
-    },
-    {
-      "clients": 0,
-      "id": "30b5c23e9da6",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR1043N/ND v2",
-          "nproc": 1
-        },
-        "hostname": "BlauesDorf",
-        "network": {
-          "addresses": [
-            "fd56:b4dc:4b1e:0:32b5:c2ff:fe3e:9da6",
-            "2a03:2260:11b:e700:32b5:c2ff:fe3e:9da6",
-            "2a03:2260:11b:700:32b5:c2ff:fe3e:9da6",
-            "2a03:2260:11b:a100:32b5:c2ff:fe3e:9da6",
-            "fe80::32b5:c2ff:fe3e:9da6",
-            "2a03:2260:11b:1700:32b5:c2ff:fe3e:9da6"
-          ],
-          "mac": "30:b5:c2:3e:9d:a6",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "1a:6e:12:a5:5c:73"
-                ],
-                "tunnel": [
-                  "1a:6e:12:a5:5c:77"
-                ],
-                "wireless": [
-                  "1a:6e:12:a5:5c:72"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "30b5c23e9da6",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.2",
-            "release": "2016.2.2+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 4.0
     },
     {
       "clients": 0,
@@ -23415,7 +22926,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 4.0
+      "score": 7.0
     },
     {
       "clients": 0,
@@ -23481,72 +22992,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 4.0
-    },
-    {
-      "clients": 0,
-      "id": "001999f72f84",
-      "name": {
-        "hardware": {
-          "model": "AMD G-T44R Processor",
-          "nproc": 1
-        },
-        "hostname": "#ffhessen172",
-        "location": {
-          "latitude": 49.99129102,
-          "longitude": 8.28718364
-        },
-        "network": {
-          "addresses": [
-            "fd56:b4dc:4b1e:0:219:99ff:fef7:2f84",
-            "fe80::219:99ff:fef7:2f84",
-            "2a03:2260:11b:700:219:99ff:fef7:2f84",
-            "2a03:2260:11b:1700:219:99ff:fef7:2f84",
-            "2a03:2260:11b:a100:219:99ff:fef7:2f84"
-          ],
-          "mac": "00:19:99:f7:2f:84",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "d2:da:94:70:70:43"
-                ],
-                "tunnel": [
-                  "d2:da:94:70:70:47"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "001999f72f84",
-        "software": {
-          "autoupdater": {
-            "branch": "stable"
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 3.0
+      "score": 7.0
     },
     {
       "clients": 0,
@@ -23617,7 +23063,141 @@
         "vpn": false
       },
       "online": false,
-      "score": 3.0
+      "score": 6.0
+    },
+    {
+      "clients": 0,
+      "id": "001999f72f84",
+      "name": {
+        "hardware": {
+          "model": "AMD G-T44R Processor",
+          "nproc": 1
+        },
+        "hostname": "#ffhessen172",
+        "location": {
+          "latitude": 49.99129102,
+          "longitude": 8.28718364
+        },
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e:0:219:99ff:fef7:2f84",
+            "fe80::219:99ff:fef7:2f84",
+            "2a03:2260:11b:700:219:99ff:fef7:2f84",
+            "2a03:2260:11b:1700:219:99ff:fef7:2f84",
+            "2a03:2260:11b:a100:219:99ff:fef7:2f84"
+          ],
+          "mac": "00:19:99:f7:2f:84",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "d2:da:94:70:70:43"
+                ],
+                "tunnel": [
+                  "d2:da:94:70:70:47"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "001999f72f84",
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 6.0
+    },
+    {
+      "clients": 0,
+      "id": "c46e1f977670",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "CD-COLOR",
+        "location": {
+          "latitude": 50.082656,
+          "longitude": 8.280808
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:a100:c66e:1fff:fe97:7670",
+            "2a03:2260:11b:700:c66e:1fff:fe97:7670",
+            "fd56:b4dc:4b1e:0:c66e:1fff:fe97:7670",
+            "2a03:2260:11b:1700:c66e:1fff:fe97:7670",
+            "fe80::c66e:1fff:fe97:7670"
+          ],
+          "mac": "c4:6e:1f:97:76:70",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "d6:73:c2:5f:fd:a3"
+                ],
+                "tunnel": [
+                  "d6:73:c2:5f:fd:a7"
+                ],
+                "wireless": [
+                  "d6:73:c2:5f:fd:a1"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "c46e1f977670",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 5.450000000000003
     },
     {
       "clients": 0,
@@ -23688,7 +23268,76 @@
         "vpn": false
       },
       "online": false,
-      "score": 2.0
+      "score": 5.0
+    },
+    {
+      "clients": 0,
+      "id": "ec086b3fcd7c",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v3",
+          "nproc": 1
+        },
+        "hostname": "banoo",
+        "location": {
+          "latitude": 50.079017,
+          "longitude": 8.242015
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:ee08:6bff:fe3f:cd7c",
+            "fd56:b4dc:4b1e:0:ee08:6bff:fe3f:cd7c",
+            "2a03:2260:11b:a100:ee08:6bff:fe3f:cd7c",
+            "fe80::ee08:6bff:fe3f:cd7c",
+            "2a03:2260:11b:700:ee08:6bff:fe3f:cd7c"
+          ],
+          "mac": "ec:08:6b:3f:cd:7c",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "b2:c8:d3:6c:19:2b"
+                ],
+                "tunnel": [
+                  "b2:c8:d3:6c:19:2f"
+                ],
+                "wireless": [
+                  "b2:c8:d3:6c:19:29"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "ec086b3fcd7c",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 5.0
     },
     {
       "clients": 0,
@@ -23758,7 +23407,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 2.0
+      "score": 5.0
     },
     {
       "clients": 0,
@@ -23828,7 +23477,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 2.0
+      "score": 5.0
     },
     {
       "clients": 0,
@@ -23891,76 +23540,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 2.0
-    },
-    {
-      "clients": 0,
-      "id": "ec086b3fcd7c",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR1043N/ND v3",
-          "nproc": 1
-        },
-        "hostname": "banoo",
-        "location": {
-          "latitude": 50.079017,
-          "longitude": 8.242015
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:1700:ee08:6bff:fe3f:cd7c",
-            "fd56:b4dc:4b1e:0:ee08:6bff:fe3f:cd7c",
-            "2a03:2260:11b:a100:ee08:6bff:fe3f:cd7c",
-            "fe80::ee08:6bff:fe3f:cd7c",
-            "2a03:2260:11b:700:ee08:6bff:fe3f:cd7c"
-          ],
-          "mac": "ec:08:6b:3f:cd:7c",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "b2:c8:d3:6c:19:2b"
-                ],
-                "tunnel": [
-                  "b2:c8:d3:6c:19:2f"
-                ],
-                "wireless": [
-                  "b2:c8:d3:6c:19:29"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "ec086b3fcd7c",
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 1.8499999999999979
+      "score": 5.0
     },
     {
       "clients": 0,
@@ -24030,7 +23610,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 1.0
+      "score": 4.0
     },
     {
       "clients": 0,
@@ -24100,9 +23680,298 @@
         "vpn": false
       },
       "online": false,
+      "score": 4.0
+    },
+    {
+      "clients": 0,
+      "id": "18a6f7f51384",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR842N/ND v3",
+          "nproc": 1
+        },
+        "hostname": "Wein-LAN",
+        "location": {
+          "latitude": 50.054607,
+          "longitude": 8.30272
+        },
+        "network": {
+          "addresses": [
+            "fe80::1aa6:f7ff:fef5:1384",
+            "fd56:b4dc:4b1e:0:1aa6:f7ff:fef5:1384"
+          ],
+          "mac": "18:a6:f7:f5:13:84",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "7e:2a:97:55:a0:43",
+                  "7e:2a:97:55:a0:44"
+                ],
+                "wireless": [
+                  "7e:2a:97:55:a0:42"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "18a6f7f51384",
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.5",
+            "release": "2016.2.5+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 3.0
+    },
+    {
+      "clients": 0,
+      "id": "02410a3800e7",
+      "name": {
+        "hardware": {
+          "nproc": 3
+        },
+        "hostname": "wasserfloh",
+        "network": {
+          "addresses": [
+            "fe80::4c8f:b5ff:fe91:80a7",
+            "fd56:b4dc:4b1e::a38:e7",
+            "fe80::42:aff:fe38:e7",
+            "2a03:2260:11b::a38:e7"
+          ],
+          "mac": "02:41:0a:38:00:e7",
+          "mesh": {
+            "wiBAT": {
+              "interfaces": {
+                "tunnel": [
+                  "02:00:0a:38:01:e7",
+                  "02:00:0a:38:00:e7"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "02410a3800e7",
+        "software": {
+          "autoupdater": {},
+          "batman-adv": {
+            "version": "2017.1"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v17"
+          },
+          "firmware": {
+            "base": "Ubuntu",
+            "release": "14.04"
+          },
+          "status-page": {
+            "api": 0
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": true
+      },
+      "online": false,
+      "score": 2.0
+    },
+    {
+      "clients": 0,
+      "id": "02010a380065",
+      "name": {
+        "hardware": {
+          "nproc": 4
+        },
+        "hostname": "uffschnitt",
+        "network": {
+          "addresses": [
+            "2a03:2260:11b::65",
+            "fd56:b4dc:4b1e::65",
+            "fe80::1:aff:fe38:65"
+          ],
+          "mac": "02:01:0a:38:00:65",
+          "mesh": {
+            "wibat": {
+              "interfaces": {
+                "tunnel": [
+                  "02:21:0a:38:00:65",
+                  "02:20:0a:38:00:65",
+                  "02:30:0a:38:00:65",
+                  "02:00:0a:38:00:65"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "02010a380065",
+        "software": {
+          "autoupdater": {},
+          "batman-adv": {
+            "version": "2017.3"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18-16-g4b8c4f5"
+          },
+          "firmware": {
+            "base": "Debian",
+            "release": "9.2"
+          },
+          "status-page": {
+            "api": 0
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": true
+      },
+      "online": false,
+      "score": 2.0
+    },
+    {
+      "clients": 0,
+      "id": "001999f72f2b",
+      "name": {
+        "hardware": {
+          "model": "AMD G-T44R Processor",
+          "nproc": 1
+        },
+        "hostname": "Wein-LAN-F",
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e:0:219:99ff:fef7:2f2b",
+            "fe80::219:99ff:fef7:2f2b"
+          ],
+          "mac": "00:19:99:f7:2f:2b",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "ba:db:df:6c:42:5b",
+                  "ba:db:df:6c:42:58"
+                ],
+                "tunnel": [
+                  "ba:db:df:6c:42:5f"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "001999f72f2b",
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 2.0
+    },
+    {
+      "clients": 0,
+      "id": "3c46d80b3ca8",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR703N v1",
+          "nproc": 1
+        },
+        "hostname": "flip-03",
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:a100:3e46:d8ff:fe0b:3ca8",
+            "fd56:b4dc:4b1e:0:3e46:d8ff:fe0b:3ca8",
+            "fe80::3e46:d8ff:fe0b:3ca8"
+          ],
+          "mac": "3c:46:d8:0b:3c:a8",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "56:21:ce:70:cf:13"
+                ],
+                "wireless": [
+                  "56:21:ce:70:cf:11"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "3c46d80b3ca8",
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
       "score": 1.0
     }
   ],
-  "updated_at": "2017-11-20T00:23:02.465822",
+  "updated_at": "2017-11-20T07:23:01.507504",
   "version": "0.9a8"
 }
