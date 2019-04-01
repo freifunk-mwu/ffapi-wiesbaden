@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 45,
+      "clients": 54,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -67,7 +67,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 26429.380000000165
+      "score": 26440.000000000164
     },
     {
       "clients": 1,
@@ -133,7 +133,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 17190.3700000018
+      "score": 17197.44000000179
     },
     {
       "clients": 0,
@@ -202,7 +202,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 17032.2
+      "score": 17039.2
     },
     {
       "clients": 0,
@@ -256,10 +256,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 16024.0
+      "score": 16017.0
     },
     {
-      "clients": 50,
+      "clients": 59,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -331,7 +331,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 15730.289999999968
+      "score": 15740.91999999997
     },
     {
       "clients": 3,
@@ -416,7 +416,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 15172.310000004612
+      "score": 15179.520000004617
     },
     {
       "clients": 0,
@@ -492,7 +492,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 10382.0
+      "score": 10389.0
     },
     {
       "clients": 1,
@@ -562,7 +562,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4343.490000000332
+      "score": 4350.560000000333
     },
     {
       "clients": 0,
@@ -618,10 +618,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2109.0
+      "score": 2116.0
     },
     {
-      "clients": 0,
+      "clients": 2,
       "id": "a42bb0e054c8",
       "name": {
         "hardware": {
@@ -679,7 +679,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1681.1199999999938
+      "score": 1688.2199999999937
     },
     {
       "clients": 4,
@@ -751,7 +751,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1487.2399999999693
+      "score": 1494.519999999969
     },
     {
       "clients": 0,
@@ -816,70 +816,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 1224.7599999999948
-    },
-    {
-      "clients": 0,
-      "id": "14cc20968e5c",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR710N v2",
-          "nproc": 1
-        },
-        "hostname": "FFWI-TP-Link-710V2-mobil",
-        "network": {
-          "addresses": [
-            "fe80::16cc:20ff:fe96:8e5c",
-            "fd56:b4dc:4b1e:0:16cc:20ff:fe96:8e5c"
-          ],
-          "mac": "14:cc:20:96:8e:5c",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "1a:c7:e0:39:fa:6b"
-                ],
-                "tunnel": [
-                  "1a:c7:e0:39:fa:6f"
-                ],
-                "wireless": [
-                  "1a:c7:e0:39:fa:69"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "14cc20968e5c",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable"
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.6",
-            "release": "2016.2.6+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 8.0
+      "score": 1217.7599999999948
     },
     {
       "clients": 0,
@@ -952,7 +889,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 6.0
+      "score": 9.0
     },
     {
       "clients": 0,
@@ -1023,7 +960,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 3.0
+      "score": 6.0
     },
     {
       "clients": 0,
@@ -1098,9 +1035,72 @@
         "vpn": false
       },
       "online": false,
+      "score": 4.0
+    },
+    {
+      "clients": 0,
+      "id": "14cc20968e5c",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR710N v2",
+          "nproc": 1
+        },
+        "hostname": "FFWI-TP-Link-710V2-mobil",
+        "network": {
+          "addresses": [
+            "fe80::16cc:20ff:fe96:8e5c",
+            "fd56:b4dc:4b1e:0:16cc:20ff:fe96:8e5c"
+          ],
+          "mac": "14:cc:20:96:8e:5c",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "1a:c7:e0:39:fa:6b"
+                ],
+                "tunnel": [
+                  "1a:c7:e0:39:fa:6f"
+                ],
+                "wireless": [
+                  "1a:c7:e0:39:fa:69"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "14cc20968e5c",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.6",
+            "release": "2016.2.6+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
       "score": 1.0
     }
   ],
-  "updated_at": "2019-04-01T14:23:03.067748",
+  "updated_at": "2019-04-01T21:23:02.378080",
   "version": "0.9a8"
 }
