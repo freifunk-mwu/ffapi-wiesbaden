@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 54,
+      "clients": 62,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,7 +68,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 27405.680000000146
+      "score": 27410.470000000147
     },
     {
       "clients": 1,
@@ -135,7 +135,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 17845.890000000756
+      "score": 17848.92000000075
     },
     {
       "clients": 0,
@@ -205,10 +205,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 17681.2
+      "score": 17684.2
     },
     {
-      "clients": 73,
+      "clients": 92,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 16835.66999999997
+      "score": 16841.13999999997
     },
     {
       "clients": 0,
@@ -367,7 +367,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 14819.79000000471
+      "score": 14816.79000000471
     },
     {
       "clients": 0,
@@ -444,7 +444,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 10031.0
+      "score": 10028.0
     },
     {
       "clients": 1,
@@ -515,7 +515,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5001.020000000474
+      "score": 5004.050000000475
     },
     {
       "clients": 0,
@@ -571,10 +571,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 2758.0
+      "score": 2761.0
     },
     {
-      "clients": 2,
+      "clients": 0,
       "id": "a42bb0e054c8",
       "name": {
         "hardware": {
@@ -632,7 +632,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2333.96000000001
+      "score": 2336.9700000000103
     },
     {
       "clients": 4,
@@ -705,7 +705,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2160.2799999999456
+      "score": 2163.3999999999455
     },
     {
       "clients": 0,
@@ -771,7 +771,147 @@
         "vpn": false
       },
       "online": false,
-      "score": 1277.4799999999932
+      "score": 1274.4799999999932
+    },
+    {
+      "clients": 0,
+      "id": "14cc20cd0ef4",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "Kreativfabrik",
+        "location": {
+          "latitude": 50.06669,
+          "longitude": 8.249018
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:a100:16cc:20ff:fecd:ef4",
+            "2a03:2260:11b:700:16cc:20ff:fecd:ef4",
+            "fd56:b4dc:4b1e::16cc:20ff:fecd:ef4",
+            "2a03:2260:11b:e700:16cc:20ff:fecd:ef4",
+            "2a03:2260:11b:6500:16cc:20ff:fecd:ef4",
+            "2a03:2260:11b:1700:16cc:20ff:fecd:ef4",
+            "fe80::16cc:20ff:fecd:ef4"
+          ],
+          "mac": "14:cc:20:cd:0e:f4",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "9e:e6:78:44:38:0b"
+                ],
+                "tunnel": [
+                  "9e:e6:78:44:38:0f"
+                ],
+                "wireless": [
+                  "9e:e6:78:44:38:09"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "14cc20cd0ef4",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2017.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1.8",
+            "release": "2017.1.8+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 7.0
+    },
+    {
+      "clients": 0,
+      "id": "b827eb21c296",
+      "name": {
+        "hardware": {
+          "model": "Raspberry Pi 3 Model B Rev 1.2",
+          "nproc": 4
+        },
+        "hostname": "Wein-LAN-R",
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e::2e0:4cff:fe53:4458",
+            "2a03:2260:11b:e700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:1700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:a100:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:6500:2e0:4cff:fe53:4458",
+            "fe80::2e0:4cff:fe53:4458"
+          ],
+          "mac": "b8:27:eb:21:c2:96",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "8a:2f:af:13:06:d0",
+                  "8a:2f:af:13:06:d3"
+                ],
+                "tunnel": [
+                  "8a:2f:af:13:06:d7"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "b827eb21c296",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2018.1"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1-456-g3d18ae0",
+            "release": "2018.1+mwu~exp2018062601"
+          },
+          "status-page": {
+            "api": 0
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 3.0
     },
     {
       "clients": 0,
@@ -840,7 +980,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 6.0
+      "score": 3.0
     },
     {
       "clients": 0,
@@ -905,149 +1045,9 @@
         "vpn": false
       },
       "online": false,
-      "score": 6.0
-    },
-    {
-      "clients": 0,
-      "id": "b827eb21c296",
-      "name": {
-        "hardware": {
-          "model": "Raspberry Pi 3 Model B Rev 1.2",
-          "nproc": 4
-        },
-        "hostname": "Wein-LAN-R",
-        "network": {
-          "addresses": [
-            "fd56:b4dc:4b1e::2e0:4cff:fe53:4458",
-            "2a03:2260:11b:e700:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:1700:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:a100:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:700:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:6500:2e0:4cff:fe53:4458",
-            "fe80::2e0:4cff:fe53:4458"
-          ],
-          "mac": "b8:27:eb:21:c2:96",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "8a:2f:af:13:06:d0",
-                  "8a:2f:af:13:06:d3"
-                ],
-                "tunnel": [
-                  "8a:2f:af:13:06:d7"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "b827eb21c296",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "2018.1"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2017.1-456-g3d18ae0",
-            "release": "2018.1+mwu~exp2018062601"
-          },
-          "status-page": {
-            "api": 0
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 6.0
-    },
-    {
-      "clients": 0,
-      "id": "f4f26dd7acda",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR941N/ND v6",
-          "nproc": 1
-        },
-        "hostname": "FFWI-Offenes-Wohnzimmer",
-        "location": {
-          "latitude": 50.000895,
-          "longitude": 8.305763
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:1700:f6f2:6dff:fed7:acda",
-            "fe80::f6f2:6dff:fed7:acda",
-            "2a03:2260:11b:6500:f6f2:6dff:fed7:acda",
-            "2a03:2260:11b:e700:f6f2:6dff:fed7:acda",
-            "2a03:2260:11b:700:f6f2:6dff:fed7:acda",
-            "fd56:b4dc:4b1e::f6f2:6dff:fed7:acda",
-            "2a03:2260:11b:a100:f6f2:6dff:fed7:acda"
-          ],
-          "mac": "f4:f2:6d:d7:ac:da",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "fe:2b:59:6f:b3:3b"
-                ],
-                "tunnel": [
-                  "fe:2b:59:6f:b3:3f"
-                ],
-                "wireless": [
-                  "fe:2b:59:6f:b3:39"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "f4f26dd7acda",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "2017.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2017.1-174-g4911da5",
-            "release": "2017.2+mwu~exp2018010901"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
       "score": 3.0
     }
   ],
-  "updated_at": "2019-04-28T21:23:02.787884",
+  "updated_at": "2019-04-29T00:23:02.390590",
   "version": "0.9a8"
 }
