@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 66,
+      "clients": 63,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,7 +68,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 28137.400000000132
+      "score": 28148.920000000136
     },
     {
       "clients": 1,
@@ -135,7 +135,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 18308.42999999987
+      "score": 18315.499999999858
     },
     {
       "clients": 0,
@@ -205,10 +205,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 18138.2
+      "score": 18145.2
     },
     {
-      "clients": 77,
+      "clients": 71,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 17942.020000000026
+      "score": 17954.05000000002
     },
     {
       "clients": 0,
@@ -367,7 +367,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 15102.670000005013
+      "score": 15095.670000005013
     },
     {
       "clients": 0,
@@ -444,7 +444,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 10488.0
+      "score": 10481.0
     },
     {
       "clients": 1,
@@ -515,7 +515,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5658.530000000616
+      "score": 5665.600000000618
     },
     {
       "clients": 0,
@@ -571,10 +571,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 3215.0
+      "score": 3222.0
     },
     {
-      "clients": 1,
+      "clients": 0,
       "id": "a42bb0e054c8",
       "name": {
         "hardware": {
@@ -632,7 +632,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2794.4300000000476
+      "score": 2801.4300000000476
     },
     {
       "clients": 4,
@@ -705,7 +705,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2639.459999999926
+      "score": 2646.7399999999257
     },
     {
       "clients": 1,
@@ -771,7 +771,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1862.7299999999875
+      "score": 1869.7999999999874
     },
     {
       "clients": 0,
@@ -842,7 +842,80 @@
         "vpn": false
       },
       "online": false,
-      "score": 518.6799999999997
+      "score": 511.6799999999997
+    },
+    {
+      "clients": 0,
+      "id": "ec086b3539c0",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v11",
+          "nproc": 1
+        },
+        "hostname": "Orlen_M5",
+        "location": {
+          "latitude": 50.181305,
+          "longitude": 8.185639
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:ee08:6bff:fe35:39c0",
+            "fd56:b4dc:4b1e::ee08:6bff:fe35:39c0",
+            "2a03:2260:11b:e700:ee08:6bff:fe35:39c0",
+            "2a03:2260:11b:6500:ee08:6bff:fe35:39c0",
+            "fe80::ee08:6bff:fe35:39c0",
+            "2a03:2260:11b:700:ee08:6bff:fe35:39c0",
+            "2a03:2260:11b:a100:ee08:6bff:fe35:39c0"
+          ],
+          "mac": "ec:08:6b:35:39:c0",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "be:bb:29:85:4d:3b"
+                ],
+                "tunnel": [
+                  "be:bb:29:85:4d:3f"
+                ],
+                "wireless": [
+                  "be:bb:29:85:4d:39"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "ec086b3539c0",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2017.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1.8",
+            "release": "2017.1.8+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 8.0
     },
     {
       "clients": 0,
@@ -917,82 +990,9 @@
         "vpn": false
       },
       "online": false,
-      "score": 9.0
-    },
-    {
-      "clients": 0,
-      "id": "ec086b3539c0",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR841N/ND v11",
-          "nproc": 1
-        },
-        "hostname": "Orlen_M5",
-        "location": {
-          "latitude": 50.181305,
-          "longitude": 8.185639
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:1700:ee08:6bff:fe35:39c0",
-            "fd56:b4dc:4b1e::ee08:6bff:fe35:39c0",
-            "2a03:2260:11b:e700:ee08:6bff:fe35:39c0",
-            "2a03:2260:11b:6500:ee08:6bff:fe35:39c0",
-            "fe80::ee08:6bff:fe35:39c0",
-            "2a03:2260:11b:700:ee08:6bff:fe35:39c0",
-            "2a03:2260:11b:a100:ee08:6bff:fe35:39c0"
-          ],
-          "mac": "ec:08:6b:35:39:c0",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "be:bb:29:85:4d:3b"
-                ],
-                "tunnel": [
-                  "be:bb:29:85:4d:3f"
-                ],
-                "wireless": [
-                  "be:bb:29:85:4d:39"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "ec086b3539c0",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "2017.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2017.1.8",
-            "release": "2017.1.8+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 5.0
+      "score": 2.0
     }
   ],
-  "updated_at": "2019-05-26T00:23:02.951923",
+  "updated_at": "2019-05-26T07:23:02.414479",
   "version": "0.9a8"
 }
