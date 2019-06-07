@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 49,
+      "clients": 34,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,7 +68,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 28585.400000000114
+      "score": 28595.160000000116
     },
     {
       "clients": 1,
@@ -135,80 +135,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 18606.379999999397
+      "score": 18613.449999999386
     },
     {
-      "clients": 0,
-      "id": "0019997a6ecd",
-      "name": {
-        "hardware": {
-          "model": "AMD Sempron(tm) Processor 200U",
-          "nproc": 1
-        },
-        "hostname": "Weilstrasse7-Offloader",
-        "location": {
-          "latitude": 50.088459,
-          "longitude": 8.237198
-        },
-        "network": {
-          "addresses": [
-            "fe80::219:99ff:fe7a:6ecd",
-            "2a03:2260:11b:6500:219:99ff:fe7a:6ecd",
-            "2a03:2260:11b:1700:219:99ff:fe7a:6ecd",
-            "2a03:2260:11b:a100:219:99ff:fe7a:6ecd",
-            "2a03:2260:11b:e700:219:99ff:fe7a:6ecd",
-            "2a03:2260:11b:700:219:99ff:fe7a:6ecd",
-            "fd56:b4dc:4b1e:0:219:99ff:fe7a:6ecd"
-          ],
-          "mac": "00:19:99:7a:6e:cd",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "ca:0e:e3:d3:95:7b",
-                  "ca:0e:e3:d3:95:7c"
-                ],
-                "tunnel": [
-                  "ca:0e:e3:d3:95:7f"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "0019997a6ecd",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable"
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.2",
-            "release": "2016.2.2+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 18433.2
-    },
-    {
-      "clients": 86,
+      "clients": 57,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -281,7 +211,77 @@
         "vpn": false
       },
       "online": true,
-      "score": 18430.989999999983
+      "score": 18442.469999999987
+    },
+    {
+      "clients": 0,
+      "id": "0019997a6ecd",
+      "name": {
+        "hardware": {
+          "model": "AMD Sempron(tm) Processor 200U",
+          "nproc": 1
+        },
+        "hostname": "Weilstrasse7-Offloader",
+        "location": {
+          "latitude": 50.088459,
+          "longitude": 8.237198
+        },
+        "network": {
+          "addresses": [
+            "fe80::219:99ff:fe7a:6ecd",
+            "2a03:2260:11b:6500:219:99ff:fe7a:6ecd",
+            "2a03:2260:11b:1700:219:99ff:fe7a:6ecd",
+            "2a03:2260:11b:a100:219:99ff:fe7a:6ecd",
+            "2a03:2260:11b:e700:219:99ff:fe7a:6ecd",
+            "2a03:2260:11b:700:219:99ff:fe7a:6ecd",
+            "fd56:b4dc:4b1e:0:219:99ff:fe7a:6ecd"
+          ],
+          "mac": "00:19:99:7a:6e:cd",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "ca:0e:e3:d3:95:7b",
+                  "ca:0e:e3:d3:95:7c"
+                ],
+                "tunnel": [
+                  "ca:0e:e3:d3:95:7f"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "0019997a6ecd",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.2",
+            "release": "2016.2.2+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 18440.2
     },
     {
       "clients": 0,
@@ -367,7 +367,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 14807.670000005013
+      "score": 14800.670000005013
     },
     {
       "clients": 0,
@@ -444,7 +444,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 10193.0
+      "score": 10186.0
     },
     {
       "clients": 1,
@@ -515,7 +515,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5956.480000000681
+      "score": 5963.550000000682
     },
     {
       "clients": 0,
@@ -571,7 +571,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3510.0
+      "score": 3517.0
     },
     {
       "clients": 1,
@@ -632,7 +632,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3090.970000000065
+      "score": 3098.0300000000652
     },
     {
       "clients": 4,
@@ -705,7 +705,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 2946.259999999915
+      "score": 2953.539999999915
     },
     {
       "clients": 0,
@@ -771,7 +771,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 1599.8999999999874
+      "score": 1592.8999999999874
     },
     {
       "clients": 0,
@@ -842,9 +842,9 @@
         "vpn": false
       },
       "online": true,
-      "score": 606.509999999999
+      "score": 613.509999999999
     }
   ],
-  "updated_at": "2019-06-07T07:23:02.259888",
+  "updated_at": "2019-06-07T14:23:02.756682",
   "version": "0.9a8"
 }
