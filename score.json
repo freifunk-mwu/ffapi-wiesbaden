@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 48,
+      "clients": 30,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,77 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 28978.79000000008
+      "score": 28988.66000000008
     },
     {
-      "clients": 1,
-      "id": "30b5c2e321f6",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WR1043N/ND v2",
-          "nproc": 1
-        },
-        "hostname": "Weilstrasse7",
-        "location": {
-          "latitude": 50.088539,
-          "longitude": 8.237203
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:6500:32b5:c2ff:fee3:21f6",
-            "2a03:2260:11b:700:32b5:c2ff:fee3:21f6",
-            "2a03:2260:11b:a100:32b5:c2ff:fee3:21f6",
-            "fe80::32b5:c2ff:fee3:21f6",
-            "2a03:2260:11b:1700:32b5:c2ff:fee3:21f6",
-            "fd56:b4dc:4b1e:0:32b5:c2ff:fee3:21f6",
-            "2a03:2260:11b:e700:32b5:c2ff:fee3:21f6"
-          ],
-          "mac": "30:b5:c2:e3:21:f6",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "32:b6:c3:e3:12:12",
-                  "2a:4c:f1:2c:7f:2b",
-                  "2a:4c:f1:2c:7f:28"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "30b5c2e321f6",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable"
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "2016.2"
-          },
-          "fastd": {
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2016.2.2",
-            "release": "2016.2.2+mwu1"
-          },
-          "status-page": {
-            "api": 1
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": true,
-      "score": 18873.019999998975
-    },
-    {
-      "clients": 67,
+      "clients": 72,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -211,7 +144,74 @@
         "vpn": false
       },
       "online": true,
-      "score": 18872.689999999995
+      "score": 18883.92
+    },
+    {
+      "clients": 1,
+      "id": "30b5c2e321f6",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "Weilstrasse7",
+        "location": {
+          "latitude": 50.088539,
+          "longitude": 8.237203
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:6500:32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:700:32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:a100:32b5:c2ff:fee3:21f6",
+            "fe80::32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:1700:32b5:c2ff:fee3:21f6",
+            "fd56:b4dc:4b1e:0:32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:e700:32b5:c2ff:fee3:21f6"
+          ],
+          "mac": "30:b5:c2:e3:21:f6",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "32:b6:c3:e3:12:12",
+                  "2a:4c:f1:2c:7f:2b",
+                  "2a:4c:f1:2c:7f:28"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "30b5c2e321f6",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.2",
+            "release": "2016.2.2+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 18880.089999998963
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 18697.2
+      "score": 18704.2
     },
     {
       "clients": 0,
@@ -367,7 +367,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 14543.670000005013
+      "score": 14536.670000005013
     },
     {
       "clients": 0,
@@ -444,7 +444,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 9929.0
+      "score": 9922.0
     },
     {
       "clients": 1,
@@ -515,7 +515,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 6223.120000000738
+      "score": 6230.19000000074
     },
     {
       "clients": 0,
@@ -571,10 +571,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 3774.0
+      "score": 3781.0
     },
     {
-      "clients": 2,
+      "clients": 1,
       "id": "a42bb0e054c8",
       "name": {
         "hardware": {
@@ -632,7 +632,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3356.790000000083
+      "score": 3363.8800000000842
     },
     {
       "clients": 4,
@@ -705,7 +705,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3220.8199999999056
+      "score": 3228.0999999999053
     },
     {
       "clients": 0,
@@ -771,10 +771,10 @@
         "vpn": false
       },
       "online": false,
-      "score": 1335.8999999999874
+      "score": 1328.8999999999874
     },
     {
-      "clients": 0,
+      "clients": 1,
       "id": "c04a0038f24a",
       "name": {
         "hardware": {
@@ -842,7 +842,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 847.2099999999965
+      "score": 854.2799999999964
     },
     {
       "clients": 0,
@@ -909,7 +909,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 4.0
+      "score": 7.0
     },
     {
       "clients": 0,
@@ -978,9 +978,9 @@
         "vpn": false
       },
       "online": false,
-      "score": 1.0
+      "score": 4.0
     }
   ],
-  "updated_at": "2019-06-18T07:23:01.880202",
+  "updated_at": "2019-06-18T14:23:02.666322",
   "version": "0.9a8"
 }
