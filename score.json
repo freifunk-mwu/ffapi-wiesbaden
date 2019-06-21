@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 60,
+      "clients": 51,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,10 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 29076.06000000007
+      "score": 29087.00000000007
     },
     {
-      "clients": 76,
+      "clients": 70,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 18980.58
+      "score": 18992.47
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 18938.66999999887
+      "score": 18945.73999999886
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 18762.2
+      "score": 18769.2
     },
     {
       "clients": 0,
@@ -367,7 +367,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 14478.670000005013
+      "score": 14471.670000005013
     },
     {
       "clients": 0,
@@ -444,7 +444,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 9864.0
+      "score": 9857.0
     },
     {
       "clients": 1,
@@ -515,7 +515,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 6288.770000000753
+      "score": 6295.840000000754
     },
     {
       "clients": 0,
@@ -571,10 +571,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 3839.0
+      "score": 3846.0
     },
     {
-      "clients": 0,
+      "clients": 2,
       "id": "a42bb0e054c8",
       "name": {
         "hardware": {
@@ -632,7 +632,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3422.4000000000888
+      "score": 3429.440000000089
     },
     {
       "clients": 4,
@@ -705,7 +705,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 3288.419999999903
+      "score": 3295.699999999903
     },
     {
       "clients": 0,
@@ -771,7 +771,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 1270.8999999999874
+      "score": 1263.8999999999874
     },
     {
       "clients": 0,
@@ -842,74 +842,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 830.5099999999962
-    },
-    {
-      "clients": 0,
-      "id": "b827eb21c296",
-      "name": {
-        "hardware": {
-          "model": "Raspberry Pi 3 Model B Rev 1.2",
-          "nproc": 4
-        },
-        "hostname": "Wein-LAN-R",
-        "network": {
-          "addresses": [
-            "fd56:b4dc:4b1e::2e0:4cff:fe53:4458",
-            "2a03:2260:11b:700:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:1700:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:a100:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:e700:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:6500:2e0:4cff:fe53:4458",
-            "fe80::2e0:4cff:fe53:4458"
-          ],
-          "mac": "b8:27:eb:21:c2:96",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "8a:2f:af:13:06:d0",
-                  "8a:2f:af:13:06:d3"
-                ],
-                "tunnel": [
-                  "8a:2f:af:13:06:d7"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "b827eb21c296",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "2018.1"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2017.1-456-g3d18ae0",
-            "release": "2018.1+mwu~exp2018062601"
-          },
-          "status-page": {
-            "api": 0
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 9.0
+      "score": 823.5099999999962
     },
     {
       "clients": 0,
@@ -978,9 +911,76 @@
         "vpn": false
       },
       "online": false,
-      "score": 6.0
+      "score": 9.0
+    },
+    {
+      "clients": 0,
+      "id": "b827eb21c296",
+      "name": {
+        "hardware": {
+          "model": "Raspberry Pi 3 Model B Rev 1.2",
+          "nproc": 4
+        },
+        "hostname": "Wein-LAN-R",
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e::2e0:4cff:fe53:4458",
+            "2a03:2260:11b:700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:1700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:a100:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:e700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:6500:2e0:4cff:fe53:4458",
+            "fe80::2e0:4cff:fe53:4458"
+          ],
+          "mac": "b8:27:eb:21:c2:96",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "8a:2f:af:13:06:d0",
+                  "8a:2f:af:13:06:d3"
+                ],
+                "tunnel": [
+                  "8a:2f:af:13:06:d7"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "b827eb21c296",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2018.1"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1-456-g3d18ae0",
+            "release": "2018.1+mwu~exp2018062601"
+          },
+          "status-page": {
+            "api": 0
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 2.0
     }
   ],
-  "updated_at": "2019-06-21T00:23:02.743298",
+  "updated_at": "2019-06-21T07:23:02.610537",
   "version": "0.9a8"
 }
