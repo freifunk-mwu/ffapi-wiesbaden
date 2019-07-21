@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 40,
+      "clients": 48,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,10 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 30151.910000000098
+      "score": 30162.320000000098
     },
     {
-      "clients": 65,
+      "clients": 45,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 20121.56000000002
+      "score": 20132.20000000002
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 19665.869999997718
+      "score": 19672.939999997707
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 19482.2
+      "score": 19489.2
     },
     {
       "clients": 1,
@@ -352,7 +352,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 7015.97000000091
+      "score": 7023.040000000911
     },
     {
       "clients": 0,
@@ -408,7 +408,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4559.0
+      "score": 4566.0
     },
     {
       "clients": 0,
@@ -469,7 +469,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4049.530000000126
+      "score": 4056.530000000126
     },
     {
       "clients": 4,
@@ -542,7 +542,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4037.219999999877
+      "score": 4044.4999999998768
     },
     {
       "clients": 0,
@@ -613,9 +613,84 @@
         "vpn": false
       },
       "online": true,
-      "score": 760.0199999999932
+      "score": 767.0199999999932
+    },
+    {
+      "clients": 0,
+      "id": "c4e984b0cfd8",
+      "name": {
+        "hardware": {
+          "model": "TP-Link CPE210 v1.0",
+          "nproc": 1
+        },
+        "hostname": "SilentGuardian",
+        "location": {
+          "altitude": 19,
+          "latitude": 50.08102,
+          "longitude": 8.23342
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:c6e9:84ff:feb0:cfd8",
+            "2a03:2260:11b:e700:c6e9:84ff:feb0:cfd8",
+            "fd56:b4dc:4b1e::c6e9:84ff:feb0:cfd8",
+            "2a03:2260:11b:6500:c6e9:84ff:feb0:cfd8",
+            "2a03:2260:11b:700:c6e9:84ff:feb0:cfd8",
+            "2a03:2260:11b:a100:c6e9:84ff:feb0:cfd8",
+            "fe80::c6e9:84ff:feb0:cfd8"
+          ],
+          "mac": "c4:e9:84:b0:cf:d8",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "92:f4:5d:fb:0c:70",
+                  "92:f4:5d:fb:0c:73"
+                ],
+                "tunnel": [
+                  "92:f4:5d:fb:0c:77"
+                ],
+                "wireless": [
+                  "92:f4:5d:fb:0c:71"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "c4e984b0cfd8",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2017.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1.5",
+            "release": "2017.1.5+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 3.0
     }
   ],
-  "updated_at": "2019-07-21T00:23:01.943435",
+  "updated_at": "2019-07-21T07:23:02.648337",
   "version": "0.9a8"
 }
