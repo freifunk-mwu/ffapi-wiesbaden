@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 47,
+      "clients": 46,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,10 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 30243.4100000001
+      "score": 30253.760000000097
     },
     {
-      "clients": 49,
+      "clients": 56,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 20218.28000000001
+      "score": 20229.11000000001
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 19728.48999999762
+      "score": 19735.559999997608
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 19544.2
+      "score": 19551.2
     },
     {
       "clients": 1,
@@ -352,7 +352,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 7078.590000000923
+      "score": 7085.660000000925
     },
     {
       "clients": 0,
@@ -408,7 +408,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4621.0
+      "score": 4628.0
     },
     {
       "clients": 0,
@@ -469,7 +469,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 4111.600000000128
+      "score": 4118.600000000128
     },
     {
       "clients": 4,
@@ -542,10 +542,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 4101.699999999875
+      "score": 4108.979999999875
     },
     {
-      "clients": 1,
+      "clients": 4,
       "id": "c04a0038f24a",
       "name": {
         "hardware": {
@@ -613,7 +613,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 823.0699999999922
+      "score": 830.249999999992
     },
     {
       "clients": 0,
@@ -683,9 +683,83 @@
         "vpn": false
       },
       "online": true,
-      "score": 57.0
+      "score": 64.0
+    },
+    {
+      "clients": 0,
+      "id": "c4e984b0cfd8",
+      "name": {
+        "hardware": {
+          "model": "TP-Link CPE210 v1.0",
+          "nproc": 1
+        },
+        "hostname": "SilentGuardian",
+        "location": {
+          "altitude": 19,
+          "latitude": 50.08102,
+          "longitude": 8.23342
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:c6e9:84ff:feb0:cfd8",
+            "2a03:2260:11b:e700:c6e9:84ff:feb0:cfd8",
+            "fd56:b4dc:4b1e::c6e9:84ff:feb0:cfd8",
+            "2a03:2260:11b:6500:c6e9:84ff:feb0:cfd8",
+            "2a03:2260:11b:700:c6e9:84ff:feb0:cfd8",
+            "2a03:2260:11b:a100:c6e9:84ff:feb0:cfd8",
+            "fe80::c6e9:84ff:feb0:cfd8"
+          ],
+          "mac": "c4:e9:84:b0:cf:d8",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "92:f4:5d:fb:0c:70",
+                  "92:f4:5d:fb:0c:73"
+                ],
+                "tunnel": [
+                  "92:f4:5d:fb:0c:77"
+                ],
+                "wireless": [
+                  "92:f4:5d:fb:0c:71"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "c4e984b0cfd8",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2017.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1.5",
+            "release": "2017.1.5+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 3.0
     }
   ],
-  "updated_at": "2019-07-23T14:23:02.351270",
+  "updated_at": "2019-07-23T21:23:02.435645",
   "version": "0.9a8"
 }
