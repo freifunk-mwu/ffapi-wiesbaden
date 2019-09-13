@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 50,
+      "clients": 40,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,10 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 31994.37000000004
+      "score": 32004.360000000037
     },
     {
-      "clients": 68,
+      "clients": 46,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 22198.490000000005
+      "score": 22209.300000000003
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 20978.879999995635
+      "score": 20985.949999995624
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 20782.2
+      "score": 20789.2
     },
     {
       "clients": 1,
@@ -352,7 +352,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 8330.990000001195
+      "score": 8338.060000001196
     },
     {
       "clients": 4,
@@ -425,7 +425,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5156.779999999836
+      "score": 5164.059999999836
     },
     {
       "clients": 0,
@@ -496,7 +496,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 1251.3599999999792
+      "score": 1244.3599999999792
     },
     {
       "clients": 0,
@@ -566,47 +566,50 @@
         "vpn": false
       },
       "online": false,
-      "score": 156.11999999999932
+      "score": 149.11999999999932
     },
     {
       "clients": 0,
-      "id": "ec086b41c71e",
+      "id": "60e327ee6558",
       "name": {
         "hardware": {
-          "model": "TP-Link TL-WR710N v2.1",
+          "model": "TP-Link TL-WR841N/ND v10",
           "nproc": 1
         },
-        "hostname": "Reisestecker",
+        "hostname": "IsingerMerzMessebau-3",
+        "location": {
+          "latitude": 50.058915,
+          "longitude": 8.334917
+        },
         "network": {
           "addresses": [
-            "fe80::ee08:6bff:fe41:c71e",
-            "2a03:2260:11b:6500:ee08:6bff:fe41:c71e",
-            "2a03:2260:11b:e700:ee08:6bff:fe41:c71e",
-            "2a03:2260:11b:700:ee08:6bff:fe41:c71e",
-            "fd56:b4dc:4b1e::ee08:6bff:fe41:c71e",
-            "2a03:2260:11b:a100:ee08:6bff:fe41:c71e",
-            "2a03:2260:11b:1700:ee08:6bff:fe41:c71e",
-            "2a03:2260:11b:1700:ee08:6bff:fe41:c71e"
+            "fd56:b4dc:4b1e::62e3:27ff:feee:6558",
+            "2a03:2260:11b:a100:62e3:27ff:feee:6558",
+            "2a03:2260:11b:1700:62e3:27ff:feee:6558",
+            "2a03:2260:11b:e700:62e3:27ff:feee:6558",
+            "2a03:2260:11b:6500:62e3:27ff:feee:6558",
+            "fe80::62e3:27ff:feee:6558",
+            "2a03:2260:11b:700:62e3:27ff:feee:6558"
           ],
-          "mac": "ec:08:6b:41:c7:1e",
+          "mac": "60:e3:27:ee:65:58",
           "mesh": {
             "bat0": {
               "interfaces": {
                 "other": [
-                  "3e:21:19:27:ba:a3"
+                  "66:75:09:33:66:bb"
                 ],
                 "tunnel": [
-                  "3e:21:19:27:ba:a7"
+                  "66:75:09:33:66:bf"
                 ],
                 "wireless": [
-                  "3e:21:19:27:ba:a1"
+                  "66:75:09:33:66:b9"
                 ]
               }
             }
           },
           "mesh_interfaces": null
         },
-        "node_id": "ec086b41c71e",
+        "node_id": "60e327ee6558",
         "owner": null,
         "software": {
           "autoupdater": {
@@ -616,30 +619,96 @@
           "babeld": {},
           "batman-adv": {
             "compat": 15,
-            "version": "openwrt-2018.1-5"
+            "version": "2017.2"
           },
           "fastd": {
             "enabled": true,
             "version": "v18"
           },
           "firmware": {
-            "base": "gluon-v2018.2",
-            "release": "2018.2+mwu0"
+            "base": "gluon-v2017.1.8",
+            "release": "2017.1.8+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 9.0
+    },
+    {
+      "clients": 0,
+      "id": "b827eb21c296",
+      "name": {
+        "hardware": {
+          "model": "Raspberry Pi 3 Model B Rev 1.2",
+          "nproc": 4
+        },
+        "hostname": "Wein-LAN-R",
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e::2e0:4cff:fe53:4458",
+            "2a03:2260:11b:a100:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:6500:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:1700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:e700:2e0:4cff:fe53:4458",
+            "fe80::2e0:4cff:fe53:4458"
+          ],
+          "mac": "b8:27:eb:21:c2:96",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "8a:2f:af:13:06:d0",
+                  "8a:2f:af:13:06:d3"
+                ],
+                "tunnel": [
+                  "8a:2f:af:13:06:d7"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "b827eb21c296",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2018.1"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1-456-g3d18ae0",
+            "release": "2018.1+mwu~exp2018062601"
           },
           "status-page": {
             "api": 0
           }
         },
         "system": {
-          "domain_code": "ffwi",
           "site_code": "ffwi"
         },
         "vpn": false
       },
       "online": false,
-      "score": 7.0
+      "score": 3.0
     }
   ],
-  "updated_at": "2019-09-13T07:23:02.655752",
+  "updated_at": "2019-09-13T14:23:02.608804",
   "version": "0.9a8"
 }
