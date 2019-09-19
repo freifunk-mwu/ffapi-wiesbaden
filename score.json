@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 54,
+      "clients": 48,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,10 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 32187.56000000002
+      "score": 32197.84000000002
     },
     {
-      "clients": 64,
+      "clients": 60,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 22420.09000000002
+      "score": 22431.580000000016
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 21117.249999995416
+      "score": 21124.319999995405
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 20919.2
+      "score": 20926.2
     },
     {
       "clients": 1,
@@ -352,7 +352,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 8469.360000001225
+      "score": 8476.430000001226
     },
     {
       "clients": 4,
@@ -425,10 +425,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 5299.289999999832
+      "score": 5306.569999999831
     },
     {
-      "clients": 6,
+      "clients": 1,
       "id": "c04a0038f24a",
       "name": {
         "hardware": {
@@ -496,7 +496,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1230.779999999977
+      "score": 1238.2999999999765
     },
     {
       "clients": 0,
@@ -569,10 +569,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 117.06000000000002
+      "score": 124.06000000000002
     },
     {
-      "clients": 3,
+      "clients": 1,
       "id": "60e327c39074",
       "name": {
         "hardware": {
@@ -639,7 +639,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 39.50000000000002
+      "score": 46.57000000000001
     },
     {
       "clients": 0,
@@ -709,7 +709,74 @@
         "vpn": false
       },
       "online": false,
-      "score": 19.119999999999322
+      "score": 12.119999999999322
+    },
+    {
+      "clients": 0,
+      "id": "b827eb21c296",
+      "name": {
+        "hardware": {
+          "model": "Raspberry Pi 3 Model B Rev 1.2",
+          "nproc": 4
+        },
+        "hostname": "Wein-LAN-R",
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e::2e0:4cff:fe53:4458",
+            "2a03:2260:11b:a100:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:6500:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:1700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:700:2e0:4cff:fe53:4458",
+            "2a03:2260:11b:e700:2e0:4cff:fe53:4458",
+            "fe80::2e0:4cff:fe53:4458"
+          ],
+          "mac": "b8:27:eb:21:c2:96",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "8a:2f:af:13:06:d0",
+                  "8a:2f:af:13:06:d3"
+                ],
+                "tunnel": [
+                  "8a:2f:af:13:06:d7"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "b827eb21c296",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2018.1"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1-456-g3d18ae0",
+            "release": "2018.1+mwu~exp2018062601"
+          },
+          "status-page": {
+            "api": 0
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 6.0
     },
     {
       "clients": 0,
@@ -782,76 +849,9 @@
         "vpn": false
       },
       "online": false,
-      "score": 9.0
-    },
-    {
-      "clients": 0,
-      "id": "b827eb21c296",
-      "name": {
-        "hardware": {
-          "model": "Raspberry Pi 3 Model B Rev 1.2",
-          "nproc": 4
-        },
-        "hostname": "Wein-LAN-R",
-        "network": {
-          "addresses": [
-            "fd56:b4dc:4b1e::2e0:4cff:fe53:4458",
-            "2a03:2260:11b:a100:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:6500:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:1700:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:700:2e0:4cff:fe53:4458",
-            "2a03:2260:11b:e700:2e0:4cff:fe53:4458",
-            "fe80::2e0:4cff:fe53:4458"
-          ],
-          "mac": "b8:27:eb:21:c2:96",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "8a:2f:af:13:06:d0",
-                  "8a:2f:af:13:06:d3"
-                ],
-                "tunnel": [
-                  "8a:2f:af:13:06:d7"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "b827eb21c296",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable",
-            "enabled": true
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "2018.1"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2017.1-456-g3d18ae0",
-            "release": "2018.1+mwu~exp2018062601"
-          },
-          "status-page": {
-            "api": 0
-          }
-        },
-        "system": {
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 3.0
+      "score": 2.0
     }
   ],
-  "updated_at": "2019-09-19T00:23:02.475163",
+  "updated_at": "2019-09-19T07:23:02.670156",
   "version": "0.9a8"
 }
