@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 34,
+      "clients": 50,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,10 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 32285.460000000006
+      "score": 32289.81000000001
     },
     {
-      "clients": 57,
+      "clients": 72,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 22529.95000000002
+      "score": 22534.87000000002
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 21186.939999995306
+      "score": 21189.9699999953
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 20988.2
+      "score": 20991.2
     },
     {
       "clients": 1,
@@ -352,10 +352,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 8539.05000000124
+      "score": 8542.08000000124
     },
     {
-      "clients": 4,
+      "clients": 5,
       "id": "0418d60e55ec",
       "name": {
         "hardware": {
@@ -425,7 +425,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5371.049999999829
+      "score": 5374.179999999829
     },
     {
       "clients": 0,
@@ -496,7 +496,7 @@
         "vpn": false
       },
       "online": false,
-      "score": 1182.3099999999765
+      "score": 1179.3099999999765
     },
     {
       "clients": 0,
@@ -569,10 +569,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 186.07999999999998
+      "score": 189.07999999999998
     },
     {
-      "clients": 2,
+      "clients": 3,
       "id": "60e327c39074",
       "name": {
         "hardware": {
@@ -639,7 +639,80 @@
         "vpn": false
       },
       "online": true,
-      "score": 109.65000000000006
+      "score": 112.74000000000007
+    },
+    {
+      "clients": 0,
+      "id": "60e327ee6558",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v10",
+          "nproc": 1
+        },
+        "hostname": "IsingerMerzMessebau-3",
+        "location": {
+          "latitude": 50.058915,
+          "longitude": 8.334917
+        },
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e::62e3:27ff:feee:6558",
+            "2a03:2260:11b:a100:62e3:27ff:feee:6558",
+            "2a03:2260:11b:1700:62e3:27ff:feee:6558",
+            "2a03:2260:11b:e700:62e3:27ff:feee:6558",
+            "2a03:2260:11b:6500:62e3:27ff:feee:6558",
+            "fe80::62e3:27ff:feee:6558",
+            "2a03:2260:11b:700:62e3:27ff:feee:6558"
+          ],
+          "mac": "60:e3:27:ee:65:58",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "66:75:09:33:66:bb"
+                ],
+                "tunnel": [
+                  "66:75:09:33:66:bf"
+                ],
+                "wireless": [
+                  "66:75:09:33:66:b9"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "60e327ee6558",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2017.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1.8",
+            "release": "2017.1.8+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 7.0
     },
     {
       "clients": 0,
@@ -706,9 +779,9 @@
         "vpn": false
       },
       "online": false,
-      "score": 4.0
+      "score": 1.0
     }
   ],
-  "updated_at": "2019-09-21T21:23:02.392985",
+  "updated_at": "2019-09-22T00:23:02.008932",
   "version": "0.9a8"
 }
