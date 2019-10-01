@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 50,
+      "clients": 52,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,10 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 32626.550000000003
+      "score": 32631.140000000003
     },
     {
-      "clients": 57,
+      "clients": 60,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 22902.39000000004
+      "score": 22907.20000000004
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 21429.33999999492
+      "score": 21432.369999994917
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 21228.2
+      "score": 21231.2
     },
     {
       "clients": 1,
@@ -352,7 +352,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 8781.450000001292
+      "score": 8784.480000001293
     },
     {
       "clients": 4,
@@ -425,7 +425,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 5620.659999999821
+      "score": 5623.779999999821
     },
     {
       "clients": 4,
@@ -496,7 +496,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1144.6399999999744
+      "score": 1147.7399999999743
     },
     {
       "clients": 0,
@@ -569,7 +569,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 426.11999999999995
+      "score": 429.11999999999995
     },
     {
       "clients": 0,
@@ -639,9 +639,82 @@
         "vpn": false
       },
       "online": true,
-      "score": 355.1399999999989
+      "score": 358.1399999999989
+    },
+    {
+      "clients": 0,
+      "id": "60e327ee6558",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v10",
+          "nproc": 1
+        },
+        "hostname": "IsingerMerzMessebau-3",
+        "location": {
+          "latitude": 50.058915,
+          "longitude": 8.334917
+        },
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e::62e3:27ff:feee:6558",
+            "2a03:2260:11b:a100:62e3:27ff:feee:6558",
+            "2a03:2260:11b:1700:62e3:27ff:feee:6558",
+            "2a03:2260:11b:e700:62e3:27ff:feee:6558",
+            "2a03:2260:11b:6500:62e3:27ff:feee:6558",
+            "fe80::62e3:27ff:feee:6558",
+            "2a03:2260:11b:700:62e3:27ff:feee:6558"
+          ],
+          "mac": "60:e3:27:ee:65:58",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "66:75:09:33:66:bb"
+                ],
+                "tunnel": [
+                  "66:75:09:33:66:bf"
+                ],
+                "wireless": [
+                  "66:75:09:33:66:b9"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "60e327ee6558",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2017.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1.8",
+            "release": "2017.1.8+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 7.0
     }
   ],
-  "updated_at": "2019-10-01T21:23:01.859225",
+  "updated_at": "2019-10-02T00:23:02.414467",
   "version": "0.9a8"
 }
