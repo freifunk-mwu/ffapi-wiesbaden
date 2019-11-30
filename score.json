@@ -68,10 +68,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 34656.52000000026
+      "score": 34660.760000000264
     },
     {
-      "clients": 60,
+      "clients": 75,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 25104.470000000136
+      "score": 25109.650000000136
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 22884.749999992615
+      "score": 22887.77999999261
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 22669.2
+      "score": 22672.2
     },
     {
       "clients": 1,
@@ -352,7 +352,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 10236.860000001607
+      "score": 10239.890000001607
     },
     {
       "clients": 4,
@@ -425,80 +425,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 7119.3099999997685
-    },
-    {
-      "clients": 0,
-      "id": "c04a0038f24a",
-      "name": {
-        "hardware": {
-          "model": "TP-Link TL-WDR3600 v1",
-          "nproc": 1
-        },
-        "hostname": "tisch",
-        "location": {
-          "altitude": 18,
-          "latitude": 50.29002,
-          "longitude": 8.84111
-        },
-        "network": {
-          "addresses": [
-            "2a03:2260:11b:6500:c24a:ff:fe38:f24a",
-            "2a03:2260:11b:6500:c24a:ff:fe38:f24a",
-            "2a03:2260:11b:1700:c24a:ff:fe38:f24a",
-            "2a03:2260:11b:e700:c24a:ff:fe38:f24a",
-            "fe80::c24a:ff:fe38:f24a",
-            "fd56:b4dc:4b1e::c24a:ff:fe38:f24a",
-            "2a03:2260:11b:700:c24a:ff:fe38:f24a",
-            "2a03:2260:11b:a100:c24a:ff:fe38:f24a"
-          ],
-          "mac": "c0:4a:00:38:f2:4a",
-          "mesh": {
-            "bat0": {
-              "interfaces": {
-                "other": [
-                  "16:8e:54:cc:31:24",
-                  "16:8e:54:cc:31:23"
-                ],
-                "tunnel": [
-                  "16:8e:54:cc:31:27"
-                ]
-              }
-            }
-          },
-          "mesh_interfaces": null
-        },
-        "node_id": "c04a0038f24a",
-        "owner": null,
-        "software": {
-          "autoupdater": {
-            "branch": "stable"
-          },
-          "babeld": {},
-          "batman-adv": {
-            "compat": 15,
-            "version": "openwrt-2018.1-5"
-          },
-          "fastd": {
-            "enabled": true,
-            "version": "v18"
-          },
-          "firmware": {
-            "base": "gluon-v2018.2",
-            "release": "2018.2+mwu0"
-          },
-          "status-page": {
-            "api": 0
-          }
-        },
-        "system": {
-          "domain_code": "ffwi",
-          "site_code": "ffwi"
-        },
-        "vpn": false
-      },
-      "online": false,
-      "score": 1873.7699999999543
+      "score": 7122.429999999768
     },
     {
       "clients": 0,
@@ -571,9 +498,82 @@
         "vpn": false
       },
       "online": true,
-      "score": 1868.8899999999983
+      "score": 1871.8899999999983
+    },
+    {
+      "clients": 0,
+      "id": "c04a0038f24a",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WDR3600 v1",
+          "nproc": 1
+        },
+        "hostname": "tisch",
+        "location": {
+          "altitude": 18,
+          "latitude": 50.29002,
+          "longitude": 8.84111
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:6500:c24a:ff:fe38:f24a",
+            "2a03:2260:11b:6500:c24a:ff:fe38:f24a",
+            "2a03:2260:11b:1700:c24a:ff:fe38:f24a",
+            "2a03:2260:11b:e700:c24a:ff:fe38:f24a",
+            "fe80::c24a:ff:fe38:f24a",
+            "fd56:b4dc:4b1e::c24a:ff:fe38:f24a",
+            "2a03:2260:11b:700:c24a:ff:fe38:f24a",
+            "2a03:2260:11b:a100:c24a:ff:fe38:f24a"
+          ],
+          "mac": "c0:4a:00:38:f2:4a",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "16:8e:54:cc:31:24",
+                  "16:8e:54:cc:31:23"
+                ],
+                "tunnel": [
+                  "16:8e:54:cc:31:27"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "c04a0038f24a",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "openwrt-2018.1-5"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2018.2",
+            "release": "2018.2+mwu0"
+          },
+          "status-page": {
+            "api": 0
+          }
+        },
+        "system": {
+          "domain_code": "ffwi",
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 1870.7699999999543
     }
   ],
-  "updated_at": "2019-11-30T21:23:02.600978",
+  "updated_at": "2019-12-01T00:23:02.879671",
   "version": "0.9a8"
 }
