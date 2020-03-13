@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 44,
+      "clients": 42,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -68,7 +68,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 38025.49000000025
+      "score": 38035.460000000254
     },
     {
       "clients": 75,
@@ -144,7 +144,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 28900.040000000234
+      "score": 28912.24000000023
     },
     {
       "clients": 1,
@@ -211,7 +211,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 25360.25999998869
+      "score": 25367.32999998868
     },
     {
       "clients": 0,
@@ -281,7 +281,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 25120.2
+      "score": 25127.2
     },
     {
       "clients": 1,
@@ -352,7 +352,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 12710.360000002142
+      "score": 12717.430000002143
     },
     {
       "clients": 4,
@@ -425,9 +425,75 @@
         "vpn": false
       },
       "online": true,
-      "score": 9482.72000000081
+      "score": 9490.000000000817
+    },
+    {
+      "clients": 0,
+      "id": "ec086b3539c0",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v11",
+          "nproc": 1
+        },
+        "hostname": "Orlen_test2",
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:ee08:6bff:fe35:39c0",
+            "fd56:b4dc:4b1e::ee08:6bff:fe35:39c0",
+            "2a03:2260:11b:e700:ee08:6bff:fe35:39c0",
+            "2a03:2260:11b:6500:ee08:6bff:fe35:39c0",
+            "fe80::ee08:6bff:fe35:39c0",
+            "2a03:2260:11b:700:ee08:6bff:fe35:39c0",
+            "2a03:2260:11b:a100:ee08:6bff:fe35:39c0"
+          ],
+          "mac": "ec:08:6b:35:39:c0",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "be:bb:29:85:4d:3b"
+                ],
+                "tunnel": [
+                  "be:bb:29:85:4d:3f"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "ec086b3539c0",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2017.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1.8",
+            "release": "2017.1.8+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 3.0
     }
   ],
-  "updated_at": "2020-03-13T00:23:02.144217",
+  "updated_at": "2020-03-13T07:23:01.792943",
   "version": "0.9a8"
 }
