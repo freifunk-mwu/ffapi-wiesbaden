@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 41,
+      "clients": 45,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -69,10 +69,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 39075.910000000425
+      "score": 39086.11000000042
     },
     {
-      "clients": 49,
+      "clients": 53,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -146,7 +146,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 30061.760000000322
+      "score": 30072.59000000032
     },
     {
       "clients": 1,
@@ -214,7 +214,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 26113.739999987494
+      "score": 26120.809999987483
     },
     {
       "clients": 0,
@@ -285,7 +285,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 25866.2
+      "score": 25873.2
     },
     {
       "clients": 1,
@@ -357,7 +357,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 13463.840000002305
+      "score": 13470.910000002306
     },
     {
       "clients": 4,
@@ -431,9 +431,81 @@
         "vpn": false
       },
       "online": true,
-      "score": 10156.650000001418
+      "score": 10163.930000001425
+    },
+    {
+      "clients": 0,
+      "id": "e8de27fd08ae",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "Adolfsallee-59-5",
+        "network": {
+          "addresses": [
+            "fe80::eade:27ff:fefd:8ae",
+            "fd56:b4dc:4b1e::eade:27ff:fefd:8ae",
+            "2a03:2260:11b:e700:eade:27ff:fefd:8ae",
+            "2a03:2260:11b:1700:eade:27ff:fefd:8ae",
+            "2a03:2260:11b:6500:eade:27ff:fefd:8ae",
+            "2a03:2260:11b:a100:eade:27ff:fefd:8ae",
+            "2a03:2260:11b:6f00:eade:27ff:fefd:8ae",
+            "2a03:2260:11b:700:eade:27ff:fefd:8ae",
+            "2a03:2260:11b:700:eade:27ff:fefd:8ae"
+          ],
+          "mac": "e8:de:27:fd:08:ae",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "82:2f:96:d2:62:2b"
+                ],
+                "tunnel": [
+                  "82:2f:96:d2:62:2f"
+                ],
+                "wireless": [
+                  "82:2f:96:d2:62:29"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "e8de27fd08ae",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "openwrt-2018.1-5"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2018.2",
+            "release": "2018.2+mwu0"
+          },
+          "status-page": {
+            "api": 0
+          }
+        },
+        "system": {
+          "domain_code": "ffwi",
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 12.02
     }
   ],
-  "updated_at": "2020-04-13T07:23:01.646946",
+  "updated_at": "2020-04-13T14:23:06.717933",
   "version": "0.9a8"
 }
