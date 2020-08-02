@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 35,
+      "clients": 29,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -69,10 +69,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 42687.99000000028
+      "score": 42696.90000000028
     },
     {
-      "clients": 58,
+      "clients": 45,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -146,7 +146,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 34128.42000000047
+      "score": 34138.72000000047
     },
     {
       "clients": 0,
@@ -217,7 +217,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 28529.2
+      "score": 28536.2
     },
     {
       "clients": 4,
@@ -291,9 +291,83 @@
         "vpn": false
       },
       "online": true,
-      "score": 12862.990000003714
+      "score": 12870.27000000372
+    },
+    {
+      "clients": 0,
+      "id": "60e327b7be26",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR841N/ND v10",
+          "nproc": 1
+        },
+        "hostname": "WI-Biebrich-Diltheystr",
+        "location": {
+          "latitude": 50.046676,
+          "longitude": 8.241877
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:1700:62e3:27ff:feb7:be26",
+            "fe80::62e3:27ff:feb7:be26",
+            "2a03:2260:11b:700:62e3:27ff:feb7:be26",
+            "2a03:2260:11b:6f00:62e3:27ff:feb7:be26",
+            "2a03:2260:11b:a100:62e3:27ff:feb7:be26",
+            "2a03:2260:11b:6500:62e3:27ff:feb7:be26",
+            "2a03:2260:11b:e700:62e3:27ff:feb7:be26",
+            "fd56:b4dc:4b1e::62e3:27ff:feb7:be26"
+          ],
+          "mac": "60:e3:27:b7:be:26",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "9a:66:72:ae:e6:ab"
+                ],
+                "tunnel": [
+                  "9a:66:72:ae:e6:af"
+                ],
+                "wireless": [
+                  "9a:66:72:ae:e6:a9"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "60e327b7be26",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2017.2"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2017.1.8",
+            "release": "2017.1.8+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 11.0
     }
   ],
-  "updated_at": "2020-08-02T14:23:02.294237",
+  "updated_at": "2020-08-02T21:23:02.489475",
   "version": "0.9a8"
 }
