@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 29,
+      "clients": 33,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -69,10 +69,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 43068.930000000335
+      "score": 43077.97000000034
     },
     {
-      "clients": 46,
+      "clients": 34,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -146,7 +146,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 34562.04000000043
+      "score": 34571.77000000043
     },
     {
       "clients": 0,
@@ -217,7 +217,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 28817.2
+      "score": 28824.2
     },
     {
       "clients": 4,
@@ -291,9 +291,77 @@
         "vpn": false
       },
       "online": true,
-      "score": 13160.480000003963
+      "score": 13167.76000000397
+    },
+    {
+      "clients": 0,
+      "id": "30b5c2e321f6",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR1043N/ND v2",
+          "nproc": 1
+        },
+        "hostname": "Weilstrasse7",
+        "location": {
+          "latitude": 50.088539,
+          "longitude": 8.237203
+        },
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:6500:32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:6f00:32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:700:32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:a100:32b5:c2ff:fee3:21f6",
+            "fe80::32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:1700:32b5:c2ff:fee3:21f6",
+            "fd56:b4dc:4b1e:0:32b5:c2ff:fee3:21f6",
+            "2a03:2260:11b:e700:32b5:c2ff:fee3:21f6"
+          ],
+          "mac": "30:b5:c2:e3:21:f6",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "other": [
+                  "32:b6:c3:e3:12:12",
+                  "2a:4c:f1:2c:7f:2b",
+                  "2a:4c:f1:2c:7f:28"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "30b5c2e321f6",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable"
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2016.2"
+          },
+          "fastd": {
+            "version": "v18"
+          },
+          "firmware": {
+            "base": "gluon-v2016.2.2",
+            "release": "2016.2.2+mwu1"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 16.0
     }
   ],
-  "updated_at": "2020-08-14T14:23:01.966876",
+  "updated_at": "2020-08-14T21:23:01.759558",
   "version": "0.9a8"
 }
