@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "clients": 28,
+      "clients": 30,
       "id": "5254001c8661",
       "name": {
         "hardware": {
@@ -69,10 +69,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 44611.530000000224
+      "score": 44620.570000000225
     },
     {
-      "clients": 52,
+      "clients": 54,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -146,7 +146,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 36289.70000000064
+      "score": 36300.53000000063
     },
     {
       "clients": 0,
@@ -217,7 +217,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 30050.2
+      "score": 30057.2
     },
     {
       "clients": 4,
@@ -291,7 +291,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 14395.910000005015
+      "score": 14403.190000005021
     },
     {
       "clients": 0,
@@ -359,9 +359,74 @@
         "vpn": false
       },
       "online": true,
-      "score": 1242.0
+      "score": 1249.0
+    },
+    {
+      "clients": 0,
+      "id": "60e327c39074",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WR941N/ND v6",
+          "nproc": 1
+        },
+        "hostname": "Refugees_Welcome",
+        "location": {
+          "latitude": 50.266454,
+          "longitude": 8.228145
+        },
+        "network": {
+          "addresses": [
+            "fd56:b4dc:4b1e:0:62e3:27ff:fec3:9074",
+            "fe80::62e3:27ff:fec3:9074"
+          ],
+          "mac": "60:e3:27:c3:90:74",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": [
+                  "62:e7:27:c3:90:74"
+                ],
+                "wireless": [
+                  "62:e6:28:c3:90:74"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "60e327c39074",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2015.1"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v17"
+          },
+          "firmware": {
+            "base": "gluon-v2016.1.2",
+            "release": "0.3-beta-2016.03.10"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": false,
+      "score": 3.0
     }
   ],
-  "updated_at": "2020-10-05T00:23:01.803634",
+  "updated_at": "2020-10-05T07:23:01.807669",
   "version": "0.9a8"
 }
