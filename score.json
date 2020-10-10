@@ -69,10 +69,10 @@
         "vpn": false
       },
       "online": true,
-      "score": 44789.4000000002
+      "score": 44798.350000000195
     },
     {
-      "clients": 60,
+      "clients": 49,
       "id": "525400b743aa",
       "name": {
         "hardware": {
@@ -146,7 +146,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 36498.38000000058
+      "score": 36509.05000000058
     },
     {
       "clients": 0,
@@ -217,7 +217,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 30184.2
+      "score": 30191.2
     },
     {
       "clients": 4,
@@ -291,7 +291,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 14535.28000000513
+      "score": 14542.560000005136
     },
     {
       "clients": 0,
@@ -359,7 +359,7 @@
         "vpn": false
       },
       "online": true,
-      "score": 1376.0
+      "score": 1383.0
     },
     {
       "clients": 3,
@@ -430,9 +430,73 @@
         "vpn": false
       },
       "online": true,
-      "score": 124.41000000000003
+      "score": 131.66000000000003
+    },
+    {
+      "clients": 0,
+      "id": "14cc20859952",
+      "name": {
+        "hardware": {
+          "model": "TP-Link TL-WDR3600 v1",
+          "nproc": 1
+        },
+        "hostname": "AON-Freifunk",
+        "network": {
+          "addresses": [
+            "2a03:2260:11b:6500:16cc:20ff:fe85:9952",
+            "2a03:2260:11b:e700:16cc:20ff:fe85:9952",
+            "2a03:2260:11b:1700:16cc:20ff:fe85:9952",
+            "fe80::16cc:20ff:fe85:9952",
+            "2a03:2260:11b:a100:16cc:20ff:fe85:9952",
+            "2a03:2260:11b:6f00:16cc:20ff:fe85:9952",
+            "2a03:2260:11b:700:16cc:20ff:fe85:9952",
+            "fd56:b4dc:4b1e:0:16cc:20ff:fe85:9952"
+          ],
+          "mac": "14:cc:20:85:99:52",
+          "mesh": {
+            "bat0": {
+              "interfaces": {
+                "tunnel": [
+                  "16:d0:20:85:99:52"
+                ]
+              }
+            }
+          },
+          "mesh_interfaces": null
+        },
+        "node_id": "14cc20859952",
+        "owner": null,
+        "software": {
+          "autoupdater": {
+            "branch": "stable",
+            "enabled": true
+          },
+          "babeld": {},
+          "batman-adv": {
+            "compat": 15,
+            "version": "2015.1"
+          },
+          "fastd": {
+            "enabled": true,
+            "version": "v17"
+          },
+          "firmware": {
+            "base": "gluon-v2016.1.3",
+            "release": "0.3-stable"
+          },
+          "status-page": {
+            "api": 1
+          }
+        },
+        "system": {
+          "site_code": "ffwi"
+        },
+        "vpn": false
+      },
+      "online": true,
+      "score": 11.0
     }
   ],
-  "updated_at": "2020-10-10T14:23:02.294663",
+  "updated_at": "2020-10-10T21:23:02.402778",
   "version": "0.9a8"
 }
